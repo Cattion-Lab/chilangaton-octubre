@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { flip } from 'svelte/animate';
 	import VerificationBadge from '#lib/components/clinic/VerificationBadge.svelte';
 	import { KIND_LABELS } from '#lib/components/clinic/labels.ts';
 	import type { Clinic, RouteOption } from '#lib/types.ts';
@@ -28,47 +29,49 @@
 		if (selectedId && rest.some((item) => item.id === selectedId)) expanded = true;
 	});
 
+	function reorder(node: Element, rects: { from: DOMRect; to: DOMRect }) {
+		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		return flip(node, rects, { duration: reduced ? 0 : 200 });
+	}
+
 	function toggleLabel(open: boolean): string {
 		if (open) return 'Ocultar trayecto';
 		return hasStation ? 'Ver trayecto' : 'Ver en el mapa';
 	}
 </script>
 
-{#snippet row(clinic: Clinic)}
-	{@const open = clinic.id === selectedId}
-	<li class:is-open={open} id="clinic-{clinic.id}" aria-current={open ? 'true' : undefined}>
-		<div class="clinic-row">
-			<h3 tabindex="-1">{clinic.name}</h3>
-			<p class="where">
-				<span>{KIND_LABELS[clinic.kind]} · {clinic.borough}</span>
-				<VerificationBadge {clinic} />
+{#snippet row(clinic: Clinic, open: boolean)}
+	<div class="clinic-row">
+		<h3 tabindex="-1">{clinic.name}</h3>
+		<p class="where">
+			<span>{KIND_LABELS[clinic.kind]} · {clinic.borough}</span>
+			<VerificationBadge {clinic} />
+		</p>
+		{#if open && summary}
+			<p class="time">
+				<span class="mins">{summary.minutes} min</span>
+				<span class="meta">{transfersText(summary.transfers)}</span>
+				<span class="meta">{summary.walkingMinutes} min a pie</span>
 			</p>
-			{#if open && summary}
-				<p class="time">
-					<span class="mins">{summary.minutes} min</span>
-					<span class="meta">{transfersText(summary.transfers)}</span>
-					<span class="meta">{summary.walkingMinutes} min a pie</span>
-				</p>
-			{/if}
-			<p class="actions">
-				<button
-					type="button"
-					class="toggle"
-					class:pending={!ready}
-					aria-expanded={open}
-					aria-controls={open ? `trip-${clinic.id}` : undefined}
-					tabindex={ready ? undefined : -1}
-					onclick={() => ontoggle(clinic.id)}
-				>
-					{toggleLabel(open)}
-				</button>
-				<a class="toggle" href="/clinicas/{clinic.id}">Ver ficha</a>
-			</p>
-		</div>
-		{#if open}
-			{@render details(clinic)}
 		{/if}
-	</li>
+		<p class="actions">
+			<button
+				type="button"
+				class="toggle"
+				class:pending={!ready}
+				aria-expanded={open}
+				aria-controls={open ? `trip-${clinic.id}` : undefined}
+				tabindex={ready ? undefined : -1}
+				onclick={() => ontoggle(clinic.id)}
+			>
+				{toggleLabel(open)}
+			</button>
+			<a class="toggle" href="/clinicas/{clinic.id}">Ver ficha</a>
+		</p>
+	</div>
+	{#if open}
+		{@render details(clinic)}
+	{/if}
 {/snippet}
 
 {#if clinics.length === 0}
@@ -76,7 +79,15 @@
 {:else}
 	<ul class="clinics">
 		{#each first as clinic (clinic.id)}
-			{@render row(clinic)}
+			{@const open = clinic.id === selectedId}
+			<li
+				animate:reorder
+				class:is-open={open}
+				id="clinic-{clinic.id}"
+				aria-current={open ? 'true' : undefined}
+			>
+				{@render row(clinic, open)}
+			</li>
 		{/each}
 	</ul>
 	{#if rest.length > 0}
@@ -86,7 +97,15 @@
 			</summary>
 			<ul class="clinics">
 				{#each rest as clinic (clinic.id)}
-					{@render row(clinic)}
+					{@const open = clinic.id === selectedId}
+					<li
+						animate:reorder
+						class:is-open={open}
+						id="clinic-{clinic.id}"
+						aria-current={open ? 'true' : undefined}
+					>
+						{@render row(clinic, open)}
+					</li>
 				{/each}
 			</ul>
 		</details>

@@ -9,6 +9,7 @@
 	import StationSelect from '#lib/components/consult/StationSelect.svelte';
 	import TripPanel from '#lib/components/consult/TripPanel.svelte';
 	import { acceptConsent } from '#lib/components/consult/consent-actions.ts';
+	import { sortByDistance } from '#lib/components/consult/distance.ts';
 	import { TripLeg } from '#lib/components/consult/trip-leg.svelte.ts';
 	import { consent } from '#lib/privacy/consent.svelte.ts';
 	import type { PageProps } from './$types';
@@ -30,6 +31,9 @@
 	let activeLeg = $state<'outbound' | 'return'>('outbound');
 
 	const station = $derived(data.stations.find((item) => item.id === stationId) ?? null);
+	const orderedClinics = $derived(
+		station ? sortByDistance(data.clinics, station.location) : data.clinics
+	);
 	const pick = $derived(data.clinics.find((item) => item.id === pickId) ?? null);
 	const shownLeg = $derived(activeLeg === 'outbound' ? outbound : returnTrip);
 	const mapPolyline = $derived(shownLeg.routes[shownLeg.selected]?.polyline ?? null);
@@ -66,6 +70,27 @@
 		const top = item.getBoundingClientRect().top + window.scrollY - (header || 64) - 16;
 		window.scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' });
 		item.querySelector<HTMLElement>('h3')?.focus({ preventScroll: true });
+	}
+
+	async function showClosest(): Promise<void> {
+		await tick();
+		await tick();
+		const list = document.querySelector<HTMLElement>('.clinics');
+		const results = document.getElementById('results-title');
+		if (!list || !results) return;
+		const style = getComputedStyle(document.documentElement);
+		const header = parseFloat(style.getPropertyValue('--header-h')) || 64;
+		const covered = parseFloat(style.getPropertyValue('--consent-h')) || 0;
+		const rect = list.getBoundingClientRect();
+		if (rect.top >= header && rect.top + 120 <= window.innerHeight - covered) return;
+		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		const top = results.getBoundingClientRect().top + window.scrollY - header - 16;
+		window.scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' });
+	}
+
+	function changeStation(): void {
+		resetPlans();
+		if (station) void showClosest();
 	}
 
 	async function revealCard(): Promise<void> {
@@ -131,7 +156,7 @@
 		</header>
 
 		<form class="picker" aria-label="Punto de partida" onsubmit={(event) => event.preventDefault()}>
-			<StationSelect groups={data.stationGroups} bind:value={stationId} onchange={resetPlans} />
+			<StationSelect groups={data.stationGroups} bind:value={stationId} onchange={changeStation} />
 			<DepartureControl
 				id="outbound"
 				label="Hora de salida"
@@ -149,8 +174,13 @@
 				<h2 id="results-title">{data.clinics.length} lugares en la Ciudad de México</h2>
 				<span class="muted">{station ? `Desde ${station.name}` : 'Sin estación elegida'}</span>
 			</div>
+			<div class="order" aria-live="polite">
+				{#if station}
+					<p>Ordenadas por cercanía a {station.name}, en línea recta</p>
+				{/if}
+			</div>
 			<ClinicList
-				clinics={data.clinics}
+				clinics={orderedClinics}
 				selectedId={selectedClinicId}
 				{ready}
 				hasStation={station !== null}
@@ -267,6 +297,13 @@
 		font-size: 15px;
 	}
 
+	.order p {
+		padding: 10px 32px;
+		border-bottom: 1px solid var(--rule);
+		font-size: 15px;
+		color: var(--ink-soft);
+	}
+
 	.results-head h2 {
 		font-size: 15px;
 		font-weight: 500;
@@ -381,6 +418,10 @@
 		}
 
 		.results-head {
+			padding: 10px 16px;
+		}
+
+		.order p {
 			padding: 10px 16px;
 		}
 	}
