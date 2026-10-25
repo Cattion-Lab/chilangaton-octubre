@@ -68,6 +68,14 @@
 		item.querySelector<HTMLElement>('h3')?.focus({ preventScroll: true });
 	}
 
+	async function revealCard(): Promise<void> {
+		await tick();
+		const card = document.querySelector<HTMLElement>('.pick-slot .pick');
+		if (!card) return;
+		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		card.scrollIntoView({ block: 'nearest', behavior: reduced ? 'auto' : 'smooth' });
+	}
+
 	async function selectClinic(clinicId: string, source: Source): Promise<void> {
 		const unchanged = selectedClinicId === clinicId;
 		selectedClinicId = clinicId;
@@ -76,8 +84,11 @@
 			resetPlans();
 			if (station && consent.accepted) void outbound.load(station.id, clinicId);
 		}
-		if (source === 'card' || (source === 'map' && window.matchMedia(WIDE_QUERY).matches)) {
+		const wide = window.matchMedia(WIDE_QUERY).matches;
+		if (source === 'card' || (source === 'map' && wide)) {
 			await reveal(clinicId);
+		} else if (source === 'map') {
+			await revealCard();
 		}
 	}
 

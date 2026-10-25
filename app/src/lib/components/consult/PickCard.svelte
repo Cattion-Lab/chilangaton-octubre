@@ -29,6 +29,7 @@
 		justify-items: start;
 		gap: 8px;
 		padding: 16px;
+		scroll-margin-bottom: 16px;
 		border-top: 1px solid var(--rule);
 		background: var(--guinda-tint);
 		animation: pick-in 150ms cubic-bezier(0.16, 1, 0.3, 1);
