@@ -7,7 +7,10 @@
 		ogTitle
 	}: { title: string; description: string; ogTitle?: string } = $props();
 
-	const canonical = $derived(`${page.url.origin}${page.url.pathname}`);
+	const origin = $derived(
+		page.url.origin === 'http://sveltekit-prerender' ? 'https://chilangoton2026.cattion.com' : page.url.origin
+	);
+	const canonical = $derived(`${origin}${page.url.pathname}`);
 	const tabTitle = $derived(title.replace(' | RUTA LIBRE', ' · RUTA LIBRE'));
 	const shareTitle = $derived(ogTitle ?? title);
 </script>

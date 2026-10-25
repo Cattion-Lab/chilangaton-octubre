@@ -6,6 +6,7 @@
 		{ href: '/consultar', label: 'Consultar', short: undefined },
 		{ href: '/clinicas', label: 'Clínicas', short: undefined },
 		{ href: '/datos', label: 'Datos y fuentes', short: 'Datos' },
+		{ href: '/fundamentos', label: 'Fundamentos', short: undefined },
 		{ href: '/privacidad', label: 'Privacidad', short: undefined }
 	];
 
@@ -209,6 +210,13 @@
 		}
 	}
 
+	@media (max-width: 449px) {
+		.nav a {
+			padding: 0 2px;
+			font-size: 14px;
+		}
+	}
+
 	@media (max-width: 359px) {
 		.brand {
 			padding: 10px 12px;
@@ -219,7 +227,8 @@
 		}
 
 		.nav a {
-			font-size: 14px;
+			padding: 0 1px;
+			font-size: 12.5px;
 		}
 	}
 </style>
