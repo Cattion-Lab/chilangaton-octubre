@@ -58,3 +58,34 @@ Pendiente: confirmar las fechas de otoño de 2026 con la coordinación local de 
 - La Silla Rota, [CDMX: marchas, concentraciones y cierres viales hoy 23 de marzo](https://lasillarota.com/metropoli/2026/3/23/marchas-concentraciones-cierres-viales-hoy-23-de-marzo-en-cdmx-591494.html), 2026.
 - Desde la Fe, [40 Días por la Vida ya tiene fecha para su próxima campaña en México](https://desdelafe.mx/noticias/iglesia-en-mexico/40-dias-por-la-vida-ya-tiene-fecha-para-su-proxima-campana-en-mexico/), 7 de agosto de 2019 (campaña del 25 de septiembre al 3 de noviembre; jornadas de hasta 8 horas, 24 en pocas comunidades).
 - Aleteia, [40 Días por la Vida ha logrado cerrar 64 clínicas de abortos en todo el mundo](https://es.aleteia.org/2016/01/24/40-dias-por-la-vida-ha-logrado-cerrar-64-clinicas-de-abortos-en-todo-el-mundo/), 2016 (cifras de la propia campaña).
+
+## Contexto: falsas clínicas y puestos de captación
+
+Revisado el 25 de octubre de 2026.
+
+> **Nota sobre la fuente:** el sitio de Los Angeles Times no se pudo abrir desde este entorno. El resumen sale de la republicación en español de Marie Stopes México, que atribuye el texto a Yuriria Ávila para el Times (19 de octubre de 2021). Marie Stopes es parte interesada (opera las clínicas frente a las que se hacen las vigilias), así que falta contrastar contra el original.
+
+Reportaje: [«Estas clínicas en México intentan detener abortos engañando a las mujeres»](https://www.latimes.com/espanol/mexico/articulo/2021-10-19/these-clinics-in-mexico-are-trying-to-stop-abortions-by-duping-women), Los Angeles Times, 19 de octubre de 2021 (el título es el que sugiere la URL).
+
+Lo que reporta, según la republicación:
+
+- **Quién:** el Centro de Ayuda para la Mujer (CAM), organización antiaborto que opera casi siempre sin identificarse. Nació como proyecto del Comité Nacional Pro-Vida; su fundador, Jorge Serrano Limón, renunció en 2005 tras no justificar más de 2 millones de dólares en fondos públicos.
+- **Tamaño:** CAM dice tener 70 clínicas en México y 130 en el resto de América Latina y el Caribe, sin publicar nombres ni direcciones. El Times identificó cuatro en la CDMX y tres más en el Estado de México, Sonora y Guerrero. Sus líderes no quisieron hablar.
+- **Tácticas:**
+  - Anuncian «aborto seguro» o «interrupción del embarazo» en seis sitios web y cuatro páginas de Facebook que dirigen al mismo teléfono, y a veces dicen que se acabaron las pastillas.
+  - Estacionan camionetas con el logo «DeSíde» frente a clínicas públicas y ofrecen ecografías gratis.
+  - Reparten volantes con afirmaciones falsas, como que el aborto causa infertilidad.
+  - Muestran videos de abortos y modelos de fetos de plástico.
+  - Uno de sus letreros imitaba al de las clínicas de interrupción legal del embarazo (ILE).
+- **Casos:** Elena Cauduro Pérez (2019) pagó menos de 100 dólares en una clínica CAM, la presionaron y abortó esa tarde en una clínica privada; su hilo de Twitter se compartió más de 40 000 veces. A Ana Cristino, de 26 años, le dijeron que tenía gemelos cuando era un solo feto; abortó dos días después.
+- **Gobierno de la CDMX:** un vocero dijo que no pueden retirar las camionetas porque están en la vía pública. Las clínicas públicas colocan letreros que aclaran que los módulos externos no son de la Secretaría de Salud. Un ejemplo es el Centro de Salud México-España, donde CAM opera frente a la entrada.
+- **Marco legal citado:** el aborto es legal hasta las 12 semanas en la CDMX desde 2007 (más de 230 000 procedimientos en clínicas públicas); desde entonces también lo legalizaron Oaxaca, Veracruz e Hidalgo, y la Suprema Corte declaró inconstitucional procesar a quien aborta antes de las 12 semanas (caso Coahuila). Hay 14 clínicas y hospitales públicos que ofrecen el servicio en la CDMX.
+
+Por qué importa para RUTA LIBRE: la persona puede encontrarse con vigilias y con puestos de captación antes de llegar al servicio, y no siempre puede distinguir una clínica legítima de una falsa. La herramienta debería dar información verificada de qué sitios son servicios públicos o legales y avisar de este tipo de señales.
+
+Pendiente: leer el original del Times y confirmar la lista de 14 clínicas y hospitales públicos con fuente oficial de la Secretaría de Salud de la CDMX.
+
+### Fuentes
+
+- Los Angeles Times (Yuriria Ávila), [artículo original](https://www.latimes.com/espanol/mexico/articulo/2021-10-19/these-clinics-in-mexico-are-trying-to-stop-abortions-by-duping-women), 19 de octubre de 2021. No consultado directamente.
+- Marie Stopes México, [Clínicas de aborto falsas. ¡Cuidado!](https://mariestopes.org.mx/clinicas-de-aborto-falsas/), republicación del 20 de octubre de 2021. Parte interesada.
