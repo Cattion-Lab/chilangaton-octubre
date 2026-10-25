@@ -1,3 +1,5 @@
+![RUTA LIBRE · Movilidad segura para decidir · Chilangatón 2026, Laboratorio de Futuros](docs/assets/banner.svg)
+
 # Chilangatón: tecnología e innovación social para futuros de la Ciudad
 
 ## El encuentro
