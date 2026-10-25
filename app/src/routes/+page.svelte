@@ -22,6 +22,11 @@
 			href: '/privacidad',
 			title: 'Privacidad',
 			text: 'Qué no recolectamos y qué pueden ver otras empresas.'
+		},
+		{
+			href: '/preguntar',
+			title: 'Preguntar',
+			text: 'Aclara dudas sobre las clínicas; además, te orienta para usar el sitio.'
 		}
 	];
 </script>

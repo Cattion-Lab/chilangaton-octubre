@@ -2,6 +2,7 @@
 	import { buildDirectionsUrl } from '#lib/maps/directions-link.ts';
 	import { consent } from '#lib/privacy/consent.svelte.ts';
 	import type { Clinic, Station } from '#lib/types.ts';
+	import ArrivalNotice from '#lib/components/clinic/ArrivalNotice.svelte';
 	import ChoiceGroup from './ChoiceGroup.svelte';
 	import { acceptConsent } from './consent-actions.ts';
 	import DepartureControl from './DepartureControl.svelte';
@@ -156,6 +157,10 @@
 			</p>
 		{/if}
 	</div>
+
+	<div class="arrival">
+		<ArrivalNotice level={4} phoneSource="de la ficha de la clínica" />
+	</div>
 </div>
 
 <style>
@@ -226,6 +231,11 @@
 		padding: 12px 16px;
 		border-top: 1px solid var(--rule);
 		font-size: 15px;
+	}
+
+	.arrival {
+		padding: 12px 16px;
+		border-top: 1px solid var(--rule);
 	}
 
 	.muted {

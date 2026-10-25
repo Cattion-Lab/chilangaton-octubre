@@ -2,11 +2,13 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { onNavigate } from '$app/navigation';
+	import { page } from '$app/state';
 	import favicon from '#lib/assets/favicon.svg';
 	import { consent } from '#lib/privacy/consent.svelte.ts';
 	import Header from '#lib/components/ui/Header.svelte';
 	import Footer from '#lib/components/ui/Footer.svelte';
 	import ConsentBanner from '#lib/components/ui/ConsentBanner.svelte';
+	import ChatLauncher from '#lib/components/chat/ChatLauncher.svelte';
 	import type { LayoutProps } from './$types';
 
 	let { children }: LayoutProps = $props();
@@ -42,6 +44,10 @@
 	{@render children()}
 </div>
 <Footer />
+{#if page.url.pathname !== '/preguntar'}
+	<div class="launcher-clear" aria-hidden="true"></div>
+{/if}
+<ChatLauncher />
 
 <style>
 	.skip {
@@ -66,5 +72,13 @@
 
 	.sheet {
 		min-height: 60vh;
+	}
+
+	.launcher-clear {
+		height: calc(44px + 16px + env(safe-area-inset-bottom));
+	}
+
+	:global(html:root) {
+		scroll-padding-bottom: calc(var(--consent-h, 0px) + 44px + 32px);
 	}
 </style>
