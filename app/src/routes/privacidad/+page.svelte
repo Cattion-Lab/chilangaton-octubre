@@ -51,6 +51,7 @@
 				<li><a href="#no-recolectamos">Lo que no recolectamos</a></li>
 				<li><a href="#terceros">Lo que pueden ver otras empresas</a></li>
 				<li><a href="#calificaciones">Calificaciones</a></li>
+				<li><a href="#chat">Preguntas en el chat</a></li>
 				<li><a href="#rastro">Cómo reducir tu rastro</a></li>
 				<li><a href="#decision">Tu decisión</a></li>
 			</ol>
@@ -121,6 +122,37 @@
 			</p>
 		</section>
 
+		<section id="chat" aria-labelledby="chat-title">
+			<h2 id="chat-title">Preguntas en el chat</h2>
+			<p>
+				En «Preguntar» puedes escribir dudas sobre las clínicas o sobre cómo usar el sitio; una IA
+				responde con los datos de RUTA LIBRE. Aquí te contamos cómo se procesa la conversación.
+			</p>
+			<ul>
+				<li>El chat se procesa con Anthropic, una empresa en Estados Unidos. La IA responde con los datos del sitio.</li>
+				<li>
+					RUTA LIBRE no guarda las conversaciones. No se almacenan en una base de datos ni en los
+					registros del servidor.
+				</li>
+				<li>
+					El historial permanece solo en la página abierta. Se borra al cerrar la pestaña, recargarla o
+					usar «Salida rápida».
+				</li>
+				<li>
+					Anthropic puede conservar las conversaciones durante un tiempo. La duración depende de su
+					propia política.
+				</li>
+				<li>
+					No escribas datos que te identifiquen. Por ejemplo, evita incluir tu nombre, teléfono,
+					dirección o CURP.
+				</li>
+				<li>
+					El chat solo funciona si aceptas este aviso de privacidad. Mientras no lo aceptes, no se envía
+					nada.
+				</li>
+			</ul>
+		</section>
+
 		<section id="rastro" aria-labelledby="rastro-title">
 			<h2 id="rastro-title">Cómo reducir tu rastro</h2>
 			<ul>
@@ -140,6 +172,7 @@
 				<p>
 					Si aceptas, el mapa de Consultar se carga solo y podrás calcular trayectos. La decisión
 					solo se recuerda en esta pestaña y se borra al cerrarla; puedes retirarla cuando quieras.
+					Al aceptar este aviso, también habilitas el chat «Preguntar».
 				</p>
 				<ChoiceGroup>
 					<button type="button" class="choice primary" onclick={acceptConsent}>Aceptar</button>
@@ -150,7 +183,8 @@
 				<p><span class="chip">Aviso aceptado en esta pestaña</span></p>
 				<p>
 					Ya aceptaste este aviso, así que el mapa de Consultar se carga solo. Si cierras la pestaña,
-					esta decisión se borra; también puedes retirarla cuando quieras.
+					esta decisión se borra; también puedes retirarla cuando quieras. Con esta aceptación,
+					también queda habilitado el chat «Preguntar».
 				</p>
 				<ChoiceGroup>
 					<a class="choice primary" href="/consultar">Ir a consultar</a>

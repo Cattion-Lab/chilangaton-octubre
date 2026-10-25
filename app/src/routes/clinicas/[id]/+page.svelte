@@ -1,5 +1,6 @@
 <script lang="ts">
 	import RatingSection from '#lib/components/rating/RatingSection.svelte';
+	import ArrivalNotice from '#lib/components/clinic/ArrivalNotice.svelte';
 	import ClinicTrip from '#lib/components/clinic/ClinicTrip.svelte';
 	import VerificationBadge from '#lib/components/clinic/VerificationBadge.svelte';
 	import { KIND_LABELS } from '#lib/components/clinic/labels.ts';
@@ -74,6 +75,10 @@
 				</dl>
 			</section>
 
+			<div class="block b-notice">
+				<ArrivalNotice level={2} />
+			</div>
+
 			<section class="block b-req" aria-labelledby="requirements-title">
 				<h2 id="requirements-title">Requisitos</h2>
 				{#if clinic.requirements.length > 0}
@@ -125,6 +130,8 @@
 	</nav>
 
 	<p class="compare"><a href="/consultar">Comparar con otras clínicas</a></p>
+
+	<p class="doubts"><a href="/preguntar">¿Tienes dudas? Pregunta</a></p>
 </main>
 
 <style>
@@ -186,6 +193,10 @@
 	.block h2 {
 		margin-bottom: 12px;
 		font-size: 20px;
+	}
+
+	.b-notice {
+		padding-block: 20px;
 	}
 
 	.facts > div {
@@ -279,6 +290,17 @@
 		min-height: 44px;
 	}
 
+	.doubts {
+		padding: 0 32px 8px;
+		font-size: 15px;
+	}
+
+	.doubts a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+	}
+
 	@media (max-width: 899px) {
 		.crumbs {
 			padding: 0 16px;
@@ -314,19 +336,25 @@
 			order: 2;
 		}
 
-		.b-req {
+		.b-notice {
 			order: 3;
+			padding: 16px;
 		}
 
-		.b-serv {
+		.b-req {
 			order: 4;
 		}
 
-		.b-rate {
+		.b-serv {
 			order: 5;
 		}
 
+		.b-rate {
+			order: 6;
+		}
+
 		.b-howto,
+		.b-notice,
 		.b-req,
 		.b-serv,
 		.b-rate {
@@ -354,6 +382,10 @@
 
 		.compare {
 			padding: 4px 16px;
+		}
+
+		.doubts {
+			padding: 0 16px 8px;
 		}
 	}
 </style>

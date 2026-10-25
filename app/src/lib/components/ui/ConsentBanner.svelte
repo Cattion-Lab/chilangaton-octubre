@@ -18,10 +18,6 @@
 		<div class="copy">
 			<p class="title" id="consent-title">Sobre tu privacidad</p>
 			<p>No usamos cookies de rastreo ni analítica, y no pedimos tu ubicación ni datos que te identifiquen.</p>
-			<p>
-				El mapa lo muestra Google, que recibe tu IP; los trayectos los calcula nuestro servidor con
-				Google. Sin aceptar, la lista de lugares se ve igual.
-			</p>
 		</div>
 		<ChoiceGroup>
 			<button type="button" class="choice primary" onclick={acceptConsent}>Aceptar</button>
