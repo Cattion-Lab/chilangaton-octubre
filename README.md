@@ -33,4 +33,4 @@ La información tendrá fuente y fecha de verificación; ningún trayecto se eti
 
 Este repositorio reúne la evidencia del trabajo del equipo durante el evento; también sirve como evidencia para Cattion. Los documentos se guardarán en `docs/` y, si aplica, aquí se incluirá código.
 
-- [`docs/recopilacion.md`](docs/recopilacion.md): notas reunidas durante el evento.
+- [`docs/recopilacion-vigilias.md`](docs/recopilacion.md): notas reunidas durante el evento.
