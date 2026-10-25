@@ -24,7 +24,7 @@ La información tendrá fuente y fecha de verificación; ningún trayecto se eti
 
 ## Equipo
 
-- Paula Camila Alós Villalba
+- Paola Camila Alós Villalba
 - Ana Victoria Avila Alvarez
 - Francisco Fernando Guzmán Villanueva
 - Santiago García Arellano
