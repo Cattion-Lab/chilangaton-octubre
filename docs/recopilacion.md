@@ -6,6 +6,10 @@ Notas reunidas durante el evento. Cada entrada debe llevar fuente y fecha de ver
 
 > **Estado:** texto incorporado tal cual lo aportó el equipo el 25 de octubre de 2026. Fuente y fecha de verificación: pendientes.
 
+### Fecha de inicio
+
+Las vigilias inician el 22 de septiembre.
+
 ### Horarios para voluntarios que rezan
 
 7:00 a.m. hasta las 7:00 p.m., o en esquemas de 24 horas según la convocatoria local.
