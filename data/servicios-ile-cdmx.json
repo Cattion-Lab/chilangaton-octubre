@@ -1,0 +1,437 @@
+[
+  {
+    "id": "ile-cs-01",
+    "nombre": "Centro de Salud T-III Cuajimalpa",
+    "tipo": "Centro de Salud",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "Planificación Familiar",
+      "Anticoncepción post-evento"
+    ],
+    "modalidades_ile": [
+      "Medicamento"
+    ],
+    "direccion": {
+      "calle_numero": "Cda. de Juárez 11A",
+      "colonia": "Cuajimalpa",
+      "alcaldia": "Cuajimalpa de Morelos",
+      "cp": "05000",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.3582,
+      "longitud": -99.2941
+    },
+    "contacto": {
+      "telefono": "55 5812 0787",
+      "horario": "Lunes a Viernes 08:00 - 15:00"
+    }
+  },
+  {
+    "id": "ile-cs-02",
+    "nombre": "Centro de Salud T-III México España",
+    "tipo": "Centro de Salud",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "ILE quirúrgico",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Lago Iseo 128",
+      "colonia": "Mariano Escobedo",
+      "alcaldia": "Miguel Hidalgo",
+      "cp": "11400",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.4475,
+      "longitud": -99.1825
+    },
+    "contacto": {
+      "telefono": "55 5396 0380",
+      "horario": "Lunes a Viernes 08:00 - 16:00"
+    }
+  },
+  {
+    "id": "ile-cs-03",
+    "nombre": "Centro de Salud T-III Juan Duque de Estrada",
+    "tipo": "Centro de Salud",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "ILE quirúrgico",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Oriente 170 No. 154",
+      "colonia": "Moctezuma 2da Sección",
+      "alcaldia": "Venustiano Carranza",
+      "cp": "15530",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.4287,
+      "longitud": -99.0982
+    },
+    "contacto": {
+      "telefono": "55 5762 6124",
+      "horario": "Lunes a Viernes 08:00 - 15:00"
+    }
+  },
+  {
+    "id": "ile-cs-04",
+    "nombre": "Clínica Integral de la Mujer Hermila Galindo",
+    "tipo": "Clínica Especializada",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "Planificación Familiar",
+      "Atención Integral"
+    ],
+    "modalidades_ile": [
+      "Medicamento"
+    ],
+    "direccion": {
+      "calle_numero": "Av. Ojo de Agua esq. Av. San Jerónimo S/N",
+      "colonia": "Huayatla",
+      "alcaldia": "La Magdalena Contreras",
+      "cp": "10360",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.3146,
+      "longitud": -99.2558
+    },
+    "contacto": {
+      "telefono": "55 5449 6100",
+      "horario": "Lunes a Viernes 08:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-cs-05",
+    "nombre": "Clínica Comunitaria Santa Catarina",
+    "tipo": "Clínica Comunitaria",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento"
+    ],
+    "direccion": {
+      "calle_numero": "Calle Nuevo León Mz. 38 Lt. 9",
+      "colonia": "Miguel de la Madrid",
+      "alcaldia": "Iztapalapa",
+      "cp": "09660",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.3456,
+      "longitud": -98.9871
+    },
+    "contacto": {
+      "telefono": "55 5857 7338",
+      "horario": "Lunes a Viernes 08:00 - 15:00"
+    }
+  },
+  {
+    "id": "ile-cs-06",
+    "nombre": "Centro de Salud T-III Miguel Hidalgo",
+    "tipo": "Centro de Salud",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento"
+    ],
+    "direccion": {
+      "calle_numero": "Fidelio S/N",
+      "colonia": "Miguel Hidalgo",
+      "alcaldia": "Tláhuac",
+      "cp": "13200",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.2891,
+      "longitud": -99.0432
+    },
+    "contacto": {
+      "telefono": "55 5845 2200",
+      "horario": "Lunes a Viernes 08:00 - 15:00"
+    }
+  },
+  {
+    "id": "ile-cs-07",
+    "nombre": "Clínica de Salud Reproductiva CS T-III Beatriz Velasco de Alemán",
+    "tipo": "Clínica Especializada",
+    "nivel_atencion": "Primer Nivel",
+    "servicios": [
+      "ILE medicado",
+      "ILE quirúrgico",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Av. Ing. Eduardo Molina esq. Peluqueros S/N",
+      "colonia": "Michoacana",
+      "alcaldia": "Venustiano Carranza",
+      "cp": "15240",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.4489,
+      "longitud": -99.1124
+    },
+    "contacto": {
+      "telefono": "55 5789 2522",
+      "horario": "Lunes a Viernes 08:00 - 15:00"
+    }
+  },
+  {
+    "id": "ile-hosp-01",
+    "nombre": "Hospital General Dr. Enrique Cabrera",
+    "tipo": "Hospital General",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Ginecología",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Av. Centenario 3170",
+      "colonia": "Mina los Coyotes",
+      "alcaldia": "Álvaro Obregón",
+      "cp": "01600",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.3621,
+      "longitud": -99.2241
+    },
+    "contacto": {
+      "telefono": "55 5585 1066",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-02",
+    "nombre": "Hospital Materno Infantil Cuautepec",
+    "tipo": "Hospital Materno Infantil",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Salud Materna",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Emiliano Zapata No. 17",
+      "colonia": "Cuautepec Barrio Bajo",
+      "alcaldia": "Gustavo A. Madero",
+      "cp": "07100",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.5312,
+      "longitud": -99.1415
+    },
+    "contacto": {
+      "telefono": "55 5306 2000",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-03",
+    "nombre": "Hospital Materno Infantil Dr. Nicolás M. Cedillo",
+    "tipo": "Hospital Materno Infantil",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Salud Materna",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Gustavo Jiménez esq. Víctor Hernández S/N",
+      "colonia": "Francisco Villa",
+      "alcaldia": "Azcapotzalco",
+      "cp": "02420",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.4938,
+      "longitud": -99.1972
+    },
+    "contacto": {
+      "telefono": "55 5394 0565",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-04",
+    "nombre": "Hospital Materno Infantil Inguarán",
+    "tipo": "Hospital Materno Infantil",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Salud Materna",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Estaño 307",
+      "colonia": "Felipe Ángeles",
+      "alcaldia": "Venustiano Carranza",
+      "cp": "15310",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.4503,
+      "longitud": -99.1167
+    },
+    "contacto": {
+      "telefono": "55 5795 3650",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-05",
+    "nombre": "Hospital Materno Infantil Tláhuac",
+    "tipo": "Hospital Materno Infantil",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Salud Materna",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Calz. Tláhuac Chalco 231",
+      "colonia": "La Loma",
+      "alcaldia": "Tláhuac",
+      "cp": "13060",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.2731,
+      "longitud": -99.0014
+    },
+    "contacto": {
+      "telefono": "55 5842 3381",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-06",
+    "nombre": "Hospital Materno Pediátrico Xochimilco",
+    "tipo": "Hospital Materno Pediátrico",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Salud Materna",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Av. 16 de Septiembre S/N",
+      "colonia": "Xaltocan",
+      "alcaldia": "Xochimilco",
+      "cp": "16090",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.2559,
+      "longitud": -99.1021
+    },
+    "contacto": {
+      "telefono": "55 5676 0232",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  },
+  {
+    "id": "ile-hosp-07",
+    "nombre": "Hospital General Ticomán",
+    "tipo": "Hospital General",
+    "nivel_atencion": "Segundo Nivel",
+    "servicios": [
+      "ILE quirúrgico",
+      "ILE medicado",
+      "Ginecología",
+      "Planificación Familiar"
+    ],
+    "modalidades_ile": [
+      "Medicamento",
+      "AMEU"
+    ],
+    "direccion": {
+      "calle_numero": "Cerrada Plan de San Luis 7",
+      "colonia": "La Purísima Ticomán",
+      "alcaldia": "Gustavo A. Madero",
+      "cp": "07330",
+      "ciudad": "Ciudad de México",
+      "estado": "CDMX"
+    },
+    "coordenadas": {
+      "latitud": 19.5134,
+      "longitud": -99.1362
+    },
+    "contacto": {
+      "telefono": "55 5754 3977",
+      "horario": "Lunes a Viernes 07:00 - 14:00"
+    }
+  }
+]
