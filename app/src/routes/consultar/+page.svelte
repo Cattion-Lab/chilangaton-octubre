@@ -12,6 +12,7 @@
 	import { sortByDistance } from '#lib/components/consult/distance.ts';
 	import { TripLeg } from '#lib/components/consult/trip-leg.svelte.ts';
 	import { consent } from '#lib/privacy/consent.svelte.ts';
+	import { reportedPresence, ROTATING_SITES_NOTE } from '#lib/data/reported-presence.ts';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -200,6 +201,19 @@
 				{/snippet}
 			</ClinicList>
 		</section>
+
+		<section class="zones" aria-labelledby="zones-title">
+			<h2 id="zones-title">Zonas con presencia antiaborto reportada</h2>
+			<ul>
+				{#each reportedPresence as zone (zone.id)}
+					<li>
+						{#if zone.frequent}<strong>Punto frecuente de vigilias.</strong>{/if}
+						{zone.label} · <a href={zone.sourceUrl}>{zone.source}, {zone.reportedOn}</a>
+					</li>
+				{/each}
+			</ul>
+			<p>{ROTATING_SITES_NOTE}</p>
+		</section>
 	</div>
 
 	<div class="map-wrap">
@@ -302,6 +316,36 @@
 		border-bottom: 1px solid var(--rule);
 		font-size: 15px;
 		color: var(--ink-soft);
+	}
+
+	.zones {
+		display: grid;
+		gap: 8px;
+		padding: 20px 32px 28px;
+		border-top: 1px solid var(--rule);
+		font-size: 15px;
+	}
+
+	.zones h2 {
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	.zones ul {
+		display: grid;
+		gap: 6px;
+		padding-left: 18px;
+		list-style: disc;
+	}
+
+	.zones p,
+	.zones li {
+		color: var(--ink-soft);
+	}
+
+	.zones a {
+		color: var(--guinda);
+		text-underline-offset: 3px;
 	}
 
 	.results-head h2 {
@@ -423,6 +467,10 @@
 
 		.order p {
 			padding: 10px 16px;
+		}
+
+		.zones {
+			padding: 18px 16px 24px;
 		}
 	}
 </style>

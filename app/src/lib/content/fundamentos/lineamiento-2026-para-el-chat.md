@@ -1,6 +1,6 @@
-# Conocimiento del Lineamiento técnico 2026 para el chatbot de RUTA LIBRE
+# Lineamiento técnico para la atención del aborto seguro en México, Edición 2026
 
-Fuente: «Lineamiento técnico para la atención del aborto seguro en México, Edición 2026» (Secretaría de Salud y CNEGSSR); las páginas son las impresas. El lineamiento se dirige al personal de salud; las «Reglas para el bot» traducen lo que ahí se le pide al personal. El marco legal es federal y general.
+Fuente: «Lineamiento técnico para la atención del aborto seguro en México, Edición 2026» (Secretaría de Salud y CNEGSSR); las páginas son las impresas. El lineamiento se dirige al personal de salud. El marco legal es federal y general.
 
 ## 1. Cómo acompañar
 
@@ -16,28 +16,20 @@ Fuente: «Lineamiento técnico para la atención del aborto seguro en México, E
 - El servicio no se condiciona a aceptar un anticonceptivo (Lineamiento 2026, p. 104).
 - Se ofrece manejo del dolor; nunca se presenta la incomodidad o el dolor como «castigo» o «recordatorio» (Lineamiento 2026, p. 104).
 
-**Reglas para el bot** (derivadas de lo anterior):
-1. Empezar escuchando; no dirigir hacia continuar ni hacia interrumpir.
-2. Validar lo que la persona siente sin juzgar ni interpretar.
-3. No pedir datos que no hacen falta (nombre, edad exacta, motivo, pareja); la persona puede no contestar.
-4. Dar información clara y breve; si algo no está en el lineamiento, no inventarlo y remitir a la unidad.
-5. Dejar claro que la decisión es de la persona y que puede cambiarla.
-
 ### 1.2 Lenguaje
 
 - Persona usuaria: quien acude a los servicios para ejercer su derecho a la salud; incluye mujeres adultas, niñas, adolescentes y personas con posibilidad de gestar (Lineamiento 2026, p. 7). El lineamiento usa «mujeres y personas con posibilidad de gestar» (Lineamiento 2026, p. 92; p. 93) y «niñas y adolescentes» (NA) (Lineamiento 2026, p. 109).
-- Usar lenguaje inclusivo y neutro. El bot no pregunta nombre ni pronombres; si la persona dice cómo quiere que se le nombre, lo respeta sin repetir su nombre (Lineamiento 2026, p. 106; p. 120).
+- Usar lenguaje inclusivo y neutro (Lineamiento 2026, p. 106; p. 120).
 - Identificar las palabras con las que la persona nombra su embarazo y el proceso, y usar esas (Lineamiento 2026, p. 92). Evitar «bebé» e «hijo/a» (Lineamiento 2026, p. 92; p. 93). Si hace falta un término, el lineamiento propone «producto», «feto» o «embrión», o el que la persona use (Lineamiento 2026, p. 106).
 - Evitar frases como «¿por qué esperaste tanto?», «te va a doler como un parto», «es un embarazo muy avanzado» o «es un aborto tardío» (Lineamiento 2026, p. 106). En gestaciones avanzadas, evitar «esto ya es casi un bebé» y «ya se le ve la formita» (Lineamiento 2026, p. 123).
 - Evitar etiquetas y juicios de valor (Lineamiento 2026, p. 103) y términos paternalistas como «mi niña» (Lineamiento 2026, p. 106).
-- Términos del lineamiento: usa «aborto seguro» como concepto general; «ILE» (interrupción legal del embarazo) designa la que se practica a solicitud de la persona dentro del periodo legal (Lineamiento 2026, p. 6; p. 55), e «IVE» (interrupción voluntaria del embarazo) designa la atención a víctimas de violencia sexual u otra conducta que afecte su integridad (Lineamiento 2026, p. 6; p. 57). Sus frases sugeridas también dicen «interrumpir un embarazo» (Lineamiento 2026, p. 107). Para el bot, «IVE» queda por decidir; propuesta: «aborto por violencia sexual».
 
 ### 1.3 Frases y preguntas que el lineamiento sugiere
 
 - «Está bien si tienes dudas o emociones encontradas. Aquí podemos hablarlas con calma.» «Puedes hacerme cualquier pregunta. No hay preguntas incorrectas.» (Lineamiento 2026, p. 107).
 - «La información es una herramienta para el ejercicio de tu autonomía. Lo que se busca es que tomes una decisión informada para ti.» (Lineamiento 2026, p. 107).
 
-### 1.4 Lo que el personal no debe hacer, y el bot tampoco
+### 1.4 Lo que el personal no debe hacer
 
 - Lenguaje estigmatizante, desvalorizador o prejuicioso; comentarios que generen desaprobación, culpa o miedo; comentarios que minimicen o ridiculicen la situación o las emociones (Lineamiento 2026, p. 106).
 - Comentarios sobre el número de hijos, las semanas de gestación o el uso de anticonceptivos que impliquen que su vida sexual es «irresponsable» o «desordenada» (Lineamiento 2026, p. 106).
@@ -140,14 +132,3 @@ Lo que el lineamiento indica comunicar a la persona, casi textual. En todos los 
 **Contexto para dar confianza**
 - El estigma lleva a retrasar la atención ante infección o sangrado (Lineamiento 2026, p. 94). Quien acude con señales de aborto recibe prioridad médica y el personal no debe denunciarla (Lineamiento 2026, p. 77).
 - Si la unidad no puede resolver, debe referirla de inmediato, con traslado si se requiere (Lineamiento 2026, p. 89).
-
-## 5. Lo que el bot nunca da
-
-Aunque el lineamiento lo contenga (por ejemplo, pp. 156, 158, 160 y 165), el bot no entrega:
-- Dosis, esquemas, nombres de combinaciones de medicamentos, vías de administración, horarios entre dosis ni número de dosis.
-- Semanas límite para un caso particular, ni qué método corresponde a cuántas semanas. Tampoco calcula semanas de gestación.
-- Diagnósticos ni valoraciones de síntomas: no dice si algo «es normal» o «es grave», ni sugiere causas (por ejemplo, embarazo ectópico, infección o perforación). Las listas de la sección 4 se dan como señales por las que hay que consultar, no como criterio para decidir si esperar.
-- Elegibilidad, contraindicaciones, interpretación de ultrasonidos o análisis, ni indicaciones de analgésicos o antibióticos.
-- Instrucciones para llevar a cabo un aborto por cuenta propia.
-
-Ante cualquiera de estos temas, el bot dice que eso lo define el personal de salud que la atiende, ofrece la unidad adecuada de la lista de clínicas y, si hay una señal de alarma, indica acudir de inmediato a urgencias o a la unidad más cercana.
