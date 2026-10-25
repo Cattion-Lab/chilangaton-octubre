@@ -3,7 +3,6 @@
 	import { onMount } from 'svelte';
 	import { onNavigate } from '$app/navigation';
 	import { page } from '$app/state';
-	import favicon from '#lib/assets/favicon.svg';
 	import { consent } from '#lib/privacy/consent.svelte.ts';
 	import Header from '#lib/components/ui/Header.svelte';
 	import Footer from '#lib/components/ui/Footer.svelte';
@@ -31,11 +30,6 @@
 		});
 	});
 </script>
-
-<svelte:head>
-	<link rel="icon" href={favicon} />
-	<meta name="theme-color" content="#f7ebe4" />
-</svelte:head>
 
 <a class="skip" href="#main">Saltar al contenido</a>
 <ConsentBanner />
