@@ -37,7 +37,7 @@ RUTA LIBRE no solo permite identificar dónde acceder a servicios de aborto, sin
 
 ## Equipo
 
-- Paula Camila Alós Villalba
+- Paola Camila Alós Villalba
 - Ana Victoria Avila Alvarez
 - Francisco Fernando Guzmán Villanueva
 - Santiago García Arellano
