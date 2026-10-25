@@ -22,6 +22,19 @@ Es una herramienta digital que conecta información verificada sobre aborto, opc
 
 La información tendrá fuente y fecha de verificación; ningún trayecto se etiquetará como «seguro» sin evidencia. El punto de partida será una estación de referencia, sin cuenta ni GPS.
 
+### Propósito y meta
+
+Plataforma web de cartografía participativa que conecta movilidad, seguridad y acceso al aborto en la CDMX.
+
+**¿Qué integra?**
+
+- **Mapa interactivo:** clínicas verificadas, rutas de transporte, tiempos, costos y accesibilidad.
+- **Rutas seguras:** identificación de zonas con reportes de acoso y alternativas de traslado.
+- **Chat de orientación:** atención personalizada, sin estigmas, con información actualizada sobre ILE e IVE y canalización a servicios.
+- **Inteligencia territorial:** datos agregados sobre barreras de acceso para fortalecer políticas públicas, con protección de la privacidad.
+
+RUTA LIBRE no solo permite identificar dónde acceder a servicios de aborto, sino también planear cómo llegar de forma segura, informada y autónoma. Al integrar datos institucionales con saberes comunitarios, facilita la movilidad de las personas y genera información útil para mejorar las políticas públicas.
+
 ## Equipo
 
 - Paula Camila Alós Villalba
