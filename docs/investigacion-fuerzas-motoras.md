@@ -109,7 +109,7 @@ Casos especiales ✔: Guerrero y Michoacán (la mujer no es penalizada; sí quie
 
 | # | Tendencia | Dirección | Fuerzas motoras asociadas | Datos / evidencia | Conf. |
 |---|---|---|---|---|---|
-| T1 | **De la causal a la decisión**: marco legal pasa de supuestos específicos a plazos voluntarios | ↗ | F-P1, F-A1 | 2007 → 2021 → 2023; 22–24 entidades | 🟡 |
+| T1 | **De la causal a la decisión**: marco legal pasa de supuestos específicos a plazos voluntarios | ↗ | F-P1, F-A1 | 2007 → 2021 → 2023; 24 entidades (GIRE, sep. 2026) | 🟡 |
 | T2 | **El servicio deja de estar solo en la CDMX** y se reparte por entidad, pero con plazos y calidad desiguales | ↗ (desigual) | F-P1, F-P2, F-P3 | 24 entidades despenalizan; 8 penalizan o restringen (incl. Aguascalientes); Guerrero/Michoacán/Sinaloa con esquemas distintos (GIRE ✔, Crónica ✔) | 🟢 |
 | T3 | **La CDMX sigue siendo polo regional** | → (estable o a la baja con la despenalización local) | F-P1, F-A1 | ~31 % de ILE 2007–ago 2022 de otras entidades; Puebla 1,627 casos (SAMIH, citado por Grupo Animal) | 🟡 |
 | T4 | **Aborto fuera de la clínica**: medicamentos, telemedicina y acompañamiento comunitario | ↗ | F-A1, F-A2, F-P5 | 93 % de éxito en estudio de telemedicina; más de 50 colectivas (N+) | 🟡 |
@@ -132,7 +132,7 @@ Casos especiales ✔: Guerrero y Michoacán (la mujer no es penalizada; sí quie
 | **2012–2018** | Normas federales (NOM-046 2016), Constitución CDMX, lineamientos | Fortalecimiento institucional |
 | **2018–2021** | Marea Verde nacional, colectivas, pandemia, telemedicina; AI 148/2017 | Activismo en red + sentencia nacional |
 | **2022–2023** | Dobbs, datos de no residentes, AR 267/2023 | Activismo transfronterizo + amparo |
-| **2024–2026** | Dictamen CDMX frenado; 22–24 entidades; desinformación; datos IMSS-Bienestar | Expansión desigual, contrapesos |
+| **2024–2026** | Dictamen CDMX frenado; 24 entidades (GIRE) más Aguascalientes en retroceso; desinformación; datos IMSS-Bienestar | Expansión desigual, contrapesos |
 
 ---
 
