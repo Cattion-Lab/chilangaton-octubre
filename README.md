@@ -38,3 +38,5 @@ Los criterios con los que se evaluará la propuesta (Laboratorio de Futuros y Ha
 Este repositorio reúne la evidencia del trabajo del equipo durante el evento; también sirve como evidencia para Cattion. Los documentos se guardarán en `docs/` y, si aplica, aquí se incluirá código.
 
 Lista de documentos y pendientes: [`docs/documentos.md`](docs/documentos.md). Bases del evento: [`docs/CHILANGATON-EXT.pdf`](docs/CHILANGATON-EXT.pdf).
+
+- [`docs/recopilacion-vigilias.md`](docs/recopilacion-vigilias.md): notas sobre vigilias frente a clínicas, con verificación y fuentes.
