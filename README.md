@@ -29,6 +29,10 @@ La información tendrá fuente y fecha de verificación; ningún trayecto se eti
 - Francisco Fernando Guzmán Villanueva
 - Santiago García Arellano
 
+## Criterios de evaluación
+
+Los criterios con los que se evaluará la propuesta (Laboratorio de Futuros y Hackatón) están en [`docs/criterios-evaluacion.md`](docs/criterios-evaluacion.md).
+
 ## Contenido del repositorio
 
 Este repositorio reúne la evidencia del trabajo del equipo durante el evento; también sirve como evidencia para Cattion. Los documentos se guardarán en `docs/` y, si aplica, aquí se incluirá código.
