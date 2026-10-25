@@ -34,7 +34,6 @@ interface Source {
 	file: string;
 	title?: string;
 	summaryAfter?: string;
-	summaryStartsWith?: string;
 	officialLink?: DocumentLink;
 }
 
@@ -48,16 +47,19 @@ const SOURCES: Source[] = [
 	{
 		slug: 'fuerzas-motoras',
 		file: 'investigacion-fuerzas-motoras.md',
-		summaryStartsWith: 'Este documento complementa'
+		summaryAfter: 'Resumen ejecutivo'
 	},
 	{
 		slug: 'vigilias',
 		file: 'recopilacion-vigilias.md',
-		title: 'Vigilias frente a clínicas de aborto'
+		title: 'Vigilias frente a clínicas de aborto',
+		summaryAfter: 'Fecha de inicio'
 	},
 	{
 		slug: 'lineamiento-2026',
 		file: 'lineamiento-2026-para-el-chat.md',
+		title: 'Lineamiento técnico para la atención del aborto seguro en México, Edición 2026',
+		summaryAfter: '1.1 Postura',
 		officialLink: {
 			label: 'Descargar el Lineamiento',
 			href: 'https://www.gob.mx/cms/uploads/attachment/file/1105568/Lineamientos_VF_2026-CNEGSSR_DIGITAL.pdf'
@@ -66,6 +68,7 @@ const SOURCES: Source[] = [
 	{
 		slug: 'cartilla-cndh',
 		file: 'cartilla-cndh-para-el-chat.md',
+		summaryAfter: 'Derechos que más importan',
 		officialLink: {
 			label: 'Consultar la Cartilla',
 			href: 'https://www.cndh.org.mx/sites/default/files/doc/Programas/VIH/Divulgacion/cartillas/Cartilla-Derechos-Sexuales-Adolescentes-Jovenes.pdf'
@@ -117,7 +120,7 @@ function slugify(text: string): string {
 
 function firstSentences(text: string): string {
 	if (text.length <= SUMMARY_MAX) return text;
-	const sentences = text.split(/(?<=[.!?])\s+/);
+	const sentences = text.split(/(?<=[.!?])(?<!\bp\.)\s+(?=[A-ZÁÉÍÓÚ¿¡«])/);
 	let result = sentences[0] ?? text;
 	for (const sentence of sentences.slice(1)) {
 		if (`${result} ${sentence}`.length > SUMMARY_MAX) break;
@@ -126,26 +129,29 @@ function firstSentences(text: string): string {
 	return result;
 }
 
-function pickSummary(tokens: Token[], source: Source): string {
-	const paragraphs = tokens.filter((token): token is Tokens.Paragraph => token.type === 'paragraph');
+function firstText(tokens: Token[]): string {
+	for (const token of tokens) {
+		if (token.type === 'paragraph') return plain((token as Tokens.Paragraph).tokens);
+		if (token.type === 'list') {
+			const item = (token as Tokens.List).items[0];
+			return item ? plain(item.tokens) : '';
+		}
+	}
+	return '';
+}
 
+function pickSummary(tokens: Token[], source: Source): string {
 	if (source.summaryAfter) {
 		const after = source.summaryAfter;
-		const index = tokens.findIndex((token) => token.type === 'heading' && plain(token.tokens).includes(after));
-		const next = tokens.slice(index + 1).find((token) => token.type === 'paragraph');
-		if (index !== -1 && next && next.type === 'paragraph') return firstSentences(plain(next.tokens));
+		const index = tokens.findIndex((token) => token.type === 'heading' && plain((token as Tokens.Heading).tokens).includes(after));
+		if (index !== -1) {
+			const text = firstText(tokens.slice(index + 1));
+			if (text) return firstSentences(text);
+		}
 	}
 
-	if (source.summaryStartsWith) {
-		const start = source.summaryStartsWith;
-		const match = paragraphs.find((paragraph) => plain(paragraph.tokens).startsWith(start));
-		if (match) return firstSentences(plain(match.tokens));
-	}
-
-	const fallback = paragraphs.find((paragraph) => {
-		const text = plain(paragraph.tokens);
-		return text.split(' ').length >= 15 && !/^[🔵🔴]/u.test(text);
-	});
+	const paragraphs = tokens.filter((token): token is Tokens.Paragraph => token.type === 'paragraph');
+	const fallback = paragraphs.find((paragraph) => plain(paragraph.tokens).split(' ').length >= 15);
 	return fallback ? firstSentences(plain(fallback.tokens)) : '';
 }
 

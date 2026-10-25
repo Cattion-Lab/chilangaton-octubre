@@ -1,10 +1,6 @@
 # Recopilación
 
-Notas reunidas durante el evento. Cada entrada debe llevar fuente y fecha de verificación antes de usarse en RUTA LIBRE.
-
 ## Vigilias frente a clínicas de aborto
-
-> **Estado:** texto incorporado tal cual lo aportó el equipo el 25 de octubre de 2026. Verificado parcialmente; ver «Verificación de lo anterior» al final.
 
 ### Fecha de inicio
 
@@ -63,7 +59,7 @@ Pendiente: confirmar las fechas de otoño de 2026 con la coordinación local de 
 
 Revisado el 25 de octubre de 2026.
 
-> **Nota sobre la fuente:** el sitio de Los Angeles Times no se pudo abrir desde este entorno. El resumen sale de la republicación en español de Marie Stopes México, que atribuye el texto a Yuriria Ávila para el Times (19 de octubre de 2021). Marie Stopes es parte interesada (opera las clínicas frente a las que se hacen las vigilias), así que falta contrastar contra el original.
+> **Nota sobre la fuente:** El resumen sale de la republicación en español de Marie Stopes México, que atribuye el texto a Yuriria Ávila para el Times (19 de octubre de 2021). Marie Stopes es parte interesada (opera las clínicas frente a las que se hacen las vigilias), así que falta contrastar contra el original.
 
 Reportaje: [«Estas clínicas en México intentan detener abortos engañando a las mujeres»](https://www.latimes.com/espanol/mexico/articulo/2021-10-19/these-clinics-in-mexico-are-trying-to-stop-abortions-by-duping-women), Los Angeles Times, 19 de octubre de 2021 (el título es el que sugiere la URL).
 
@@ -80,8 +76,6 @@ Lo que reporta, según la republicación:
 - **Casos:** Una usuaria (2019) pagó menos de 100 dólares en una clínica CAM, la presionaron y abortó esa tarde en una clínica privada. A una usuaria, de 26 años, le dijeron que tenía gemelos cuando era un solo feto; abortó dos días después.
 - **Gobierno de la CDMX:** un vocero dijo que no pueden retirar las camionetas porque están en la vía pública. Las clínicas públicas colocan letreros que aclaran que los módulos externos no son de la Secretaría de Salud. Un ejemplo es el Centro de Salud México-España, donde CAM opera frente a la entrada.
 - **Marco legal citado:** el aborto es legal hasta las 12 semanas en la CDMX desde 2007 (más de 230 000 procedimientos en clínicas públicas); desde entonces también lo legalizaron Oaxaca, Veracruz e Hidalgo, y la Suprema Corte declaró inconstitucional procesar a quien aborta antes de las 12 semanas (caso Coahuila). Hay 14 clínicas y hospitales públicos que ofrecen el servicio en la CDMX.
-
-Por qué importa para RUTA LIBRE: la persona puede encontrarse con vigilias y con puestos de captación antes de llegar al servicio, y no siempre puede distinguir una clínica legítima de una falsa. La herramienta debería dar información verificada de qué sitios son servicios públicos o legales y avisar de este tipo de señales.
 
 Pendiente: leer el original del Times y confirmar la lista de 14 clínicas y hospitales públicos con fuente oficial de la Secretaría de Salud de la CDMX.
 

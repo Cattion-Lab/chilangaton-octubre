@@ -1,8 +1,8 @@
 # Cartilla de Derechos Sexuales de Adolescentes y Jóvenes (CNDH, 2016)
 
-Fuente: Comisión Nacional de los Derechos Humanos, «Cartilla de Derechos Sexuales de Adolescentes y Jóvenes», primera reimpresión de noviembre de 2016, ISBN 978-607-729-272-2. Aplica a personas de 12 a 29 años (Cartilla, p. 7). La misma Cartilla advierte que el ejercicio de algunos derechos depende de las leyes de cada entidad, y recomienda consultar la legislación local (Cartilla, p. 7). Cita con el formato `(Cartilla CNDH, derecho N)`.
+Fuente: Comisión Nacional de los Derechos Humanos, «Cartilla de Derechos Sexuales de Adolescentes y Jóvenes», primera reimpresión de noviembre de 2016, ISBN 978-607-729-272-2. Aplica a personas de 12 a 29 años (Cartilla, p. 7). La misma Cartilla advierte que el ejercicio de algunos derechos depende de las leyes de cada entidad, y recomienda consultar la legislación local (Cartilla, p. 7).
 
-## Derechos que más importan para RUTA LIBRE
+## Derechos que más importan
 - **Derecho 1.** Decidir de forma libre, autónoma e informada sobre el propio cuerpo y la propia sexualidad, de acuerdo con las facultades en evolución, sin injerencias arbitrarias de terceros (Cartilla CNDH, derecho 1).
 - **Derecho 5.** Que se respete la privacidad y la intimidad, y que se resguarde de forma confidencial la información personal, sin importar la edad y con énfasis en adolescentes. En los servicios de salud, quien tenga acceso a esa información está obligado a no difundirla sin autorización (Cartilla CNDH, derecho 5).
 - **Derecho 6.** Vivir libres de violencia. Ante la violencia sexual, el Estado debe dar asesoría legal, información y atención médica y psicológica oportuna, que incluye profilaxis post exposición para VIH e ITS, anticoncepción de emergencia y aborto legal y seguro. La nota de la Cartilla dice que en todo el país el aborto en casos de violación es legal (Cartilla CNDH, derecho 6).
@@ -16,6 +16,3 @@ Fuente: Comisión Nacional de los Derechos Humanos, «Cartilla de Derechos Sexua
 - **Facultades en evolución:** las capacidades de adolescentes para decidir se desarrollan de forma gradual, no solo por su edad, y sus representantes legales deben respetar y promover esa autonomía (Cartilla CNDH, glosario).
 - **Servicios amigables:** servicios para adolescentes que contrarrestan la incomodidad o la hostilidad del entorno clínico, con trato digno y respetuoso (Cartilla CNDH, glosario).
 - **Aborto seguro:** lo realiza personal capacitado, con métodos recomendados por instancias oficiales como la OMS y en un entorno con estándares sanitarios adecuados (Cartilla CNDH, glosario).
-
-## Cómo combinarla con las fichas y el Lineamiento
-La Cartilla es de 2016 y habla de derechos en general. Para cómo atiende cada clínica, mandan las fichas del sitio. Para el procedimiento en los servicios públicos, manda el Lineamiento 2026. Si chocan, se dicen las dos cosas con su fuente y se sugiere llamar a la clínica antes de ir.
