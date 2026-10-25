@@ -76,7 +76,7 @@
 			</section>
 
 			<div class="block b-notice">
-				<ArrivalNotice level={2} />
+				<ArrivalNotice level={2} clinicId={clinic.id} />
 			</div>
 
 			<section class="block b-req" aria-labelledby="requirements-title">
