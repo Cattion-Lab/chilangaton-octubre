@@ -3,6 +3,11 @@
 	import { PUBLIC_GOOGLE_MAP_ID, PUBLIC_GOOGLE_MAPS_KEY } from '$app/env/public';
 	import { loadMapLibraries, type MapLibraries } from '#lib/maps/loader.ts';
 	import { decodePolyline } from '#lib/maps/polyline.ts';
+	import {
+		reportedPresence,
+		ROTATING_SITES_NOTE,
+		type ReportedZone
+	} from '#lib/data/reported-presence.ts';
 	import { CDMX_BOUNDS, type Clinic, type Station } from '#lib/types.ts';
 
 	interface Props {
@@ -22,6 +27,11 @@
 	const WHITE = '#fffaf6';
 	const REVEAL_FALLBACK_MS = 4000;
 	const TARGET_SIZE = 44;
+	const ZONE_FILL = '#3b3b3b';
+	const ZONE_INK = '#26211e';
+	const ZONE_ICON_LIFT = 12;
+	const ZONE_RADIUS_M = 150;
+	const FREQUENT_RADIUS_M = 250;
 
 	let container: HTMLDivElement;
 	let libs: MapLibraries | undefined;
@@ -30,6 +40,8 @@
 	let stationMarker: google.maps.marker.AdvancedMarkerElement | undefined;
 	let routeCasing: google.maps.Polyline | undefined;
 	let routeLine: google.maps.Polyline | undefined;
+	let zoneShapes: { circle: google.maps.Circle; marker: google.maps.marker.AdvancedMarkerElement }[] = [];
+	let zoneInfo: google.maps.InfoWindow | undefined;
 
 	let status = $state<'loading' | 'ready' | 'error'>('loading');
 	let shown = $state(false);
@@ -61,6 +73,37 @@
 		const dot = document.createElement('div');
 		dot.style.cssText = `width:22px;height:22px;box-sizing:border-box;border-radius:50%;background:${WHITE};border:3px solid ${INK};`;
 		return buildTarget(dot);
+	}
+
+	function buildZoneIcon(zone: ReportedZone): HTMLElement {
+		const size = zone.frequent ? 40 : 30;
+		const box = document.createElement('div');
+		box.style.cssText = `width:${Math.max(TARGET_SIZE, size + 8)}px;height:${size + ZONE_ICON_LIFT}px;display:flex;justify-content:center;align-items:flex-start;`;
+		box.innerHTML = `<svg width="${size}" height="${size}" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5 29.5 27.5H2.5Z" fill="${ZONE_INK}" stroke="${WHITE}" stroke-width="2.5" stroke-linejoin="round"/><path d="M16 11v8" stroke="${WHITE}" stroke-width="3" stroke-linecap="round"/><circle cx="16" cy="23.2" r="1.7" fill="${WHITE}"/></svg>`;
+		return box;
+	}
+
+	function buildZoneInfo(zone: ReportedZone): HTMLElement {
+		const box = document.createElement('div');
+		box.style.cssText = 'max-width:240px;font:15px/1.4 Rubik,system-ui,sans-serif;color:#3a1e12;';
+		if (zone.frequent) {
+			const lead = document.createElement('strong');
+			lead.style.display = 'block';
+			lead.textContent = 'Punto frecuente de vigilias';
+			box.append(lead);
+		}
+		const text = document.createElement('span');
+		text.textContent = `${zone.label} · ${zone.source}, ${zone.reportedOn}`;
+		box.append(text);
+		return box;
+	}
+
+	function openZone(zone: ReportedZone): void {
+		if (!libs || !map) return;
+		zoneInfo ??= new libs.maps.InfoWindow();
+		zoneInfo.setContent(buildZoneInfo(zone));
+		zoneInfo.setPosition({ lat: zone.location.latitude, lng: zone.location.longitude });
+		zoneInfo.open({ map });
 	}
 
 	onMount(() => {
@@ -142,6 +185,42 @@
 			}
 			marker.content = buildClinicDot(selected);
 			marker.zIndex = selected ? 10 : 1;
+		}
+	}
+
+	$effect(() => {
+		if (status !== 'ready' || !libs || !map) return;
+		guard(syncZones);
+	});
+
+	function syncZones(): void {
+		if (!libs || !map || zoneShapes.length > 0) return;
+		const currentMap = map;
+		for (const zone of reportedPresence) {
+			const center = { lat: zone.location.latitude, lng: zone.location.longitude };
+			const circle = new libs.maps.Circle({
+				map: currentMap,
+				center,
+				radius: zone.frequent ? FREQUENT_RADIUS_M : ZONE_RADIUS_M,
+				fillColor: ZONE_FILL,
+				fillOpacity: 0.3,
+				strokeColor: ZONE_INK,
+				strokeOpacity: 0.9,
+				strokeWeight: 2,
+				clickable: true,
+				zIndex: 0
+			});
+			circle.addListener('click', () => openZone(zone));
+			const marker = new libs.marker.AdvancedMarkerElement({
+				map: currentMap,
+				position: center,
+				title: `${zone.label} · ${zone.source}, ${zone.reportedOn}`,
+				content: buildZoneIcon(zone),
+				gmpClickable: true,
+				zIndex: 0
+			});
+			marker.addEventListener('gmp-click', () => openZone(zone));
+			zoneShapes.push({ circle, marker });
 		}
 	}
 
@@ -241,6 +320,14 @@
 		role="region"
 		aria-label="Mapa de la Ciudad de México con las clínicas y orientación"
 	></div>
+	{#if status !== 'error'}
+		<div class="legend" class:shown={shown}>
+			<p class="legend-key">
+				<span class="swatch" aria-hidden="true"></span>Zona con presencia antiaborto reportada
+			</p>
+			<p class="legend-note">{ROTATING_SITES_NOTE}</p>
+		</div>
+	{/if}
 	{#if status === 'loading'}
 		<p class="map-status" role="status">Cargando el mapa…</p>
 	{:else if status === 'error'}
@@ -268,6 +355,59 @@
 
 	.map-canvas.shown {
 		opacity: 1;
+	}
+
+	.legend {
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		display: grid;
+		gap: 4px;
+		max-width: min(300px, calc(100% - 72px));
+		padding: 8px 10px;
+		border: 1px solid var(--rule);
+		border-radius: var(--radius-sm);
+		background: var(--white);
+		font-size: 13px;
+		line-height: 1.35;
+		opacity: 0;
+		transition: opacity 200ms ease-out;
+	}
+
+	.legend.shown {
+		opacity: 1;
+	}
+
+	.legend p {
+		margin: 0;
+	}
+
+	.legend-key {
+		display: flex;
+		gap: 8px;
+		align-items: flex-start;
+		font-weight: 500;
+	}
+
+	.legend-note {
+		color: var(--ink-soft);
+	}
+
+	.swatch {
+		flex: none;
+		width: 14px;
+		height: 14px;
+		margin-top: 2px;
+		box-sizing: border-box;
+		border: 2px solid #26211e;
+		border-radius: 50%;
+		background: rgb(59 59 59 / 0.3);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.legend {
+			transition: none;
+		}
 	}
 
 	.map-status {
