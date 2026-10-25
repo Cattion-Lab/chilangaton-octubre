@@ -159,7 +159,7 @@
 	</div>
 
 	<div class="arrival">
-		<ArrivalNotice level={4} phoneSource="de la ficha de la clínica" />
+		<ArrivalNotice level={4} phoneSource="de la ficha de la clínica" clinicId={clinic.id} />
 	</div>
 </div>
 
