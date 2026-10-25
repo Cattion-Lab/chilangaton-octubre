@@ -10,7 +10,7 @@ Este documento complementa la línea del tiempo 2006–2026 («Recopilación.doc
 ## 1. Resumen ejecutivo
 
 1. **El derecho se ha movido más por tribunales y activismo que por congresos.** La SCJN confirmó la despenalización capitalina en 2008, declaró inconstitucional la criminalización absoluta en 2021 (AI 148/2017) y la del Código Penal Federal en 2023 (AR 267/2023). Los congresos locales avanzan más lento y por entidad.
-2. **El mapa legal ya no es «CDMX vs. el resto».** Según conteos de 2025–2026, entre 22 y 24 entidades permiten el aborto voluntario en distintos plazos y vías; siguen siendo 7 las que lo penalizan. Eso cambia la pregunta: ya no es solo si el aborto es legal, sino **si el servicio es accesible, está cerca y se puede alcanzar**. Ahí entra la movilidad.
+2. **El mapa legal ya no es «CDMX vs. el resto».** Según GIRE (sep. 2026), 24 entidades lo han despenalizado, más Aguascalientes, donde el plazo se redujo a 6 semanas en 2024; 7 más lo siguen penalizando. Eso cambia la pregunta: ya no es solo si el aborto es legal, sino **si el servicio es accesible, está cerca y se puede alcanzar**. Ahí entra la movilidad.
 3. **Dos infraestructuras conviven:** los servicios públicos (ILE en CDMX) y el **acompañamiento comunitario** (colectivas, redes, telemedicina con pastillas). La segunda opera sobre todo donde el servicio público no llega, y es un «saber comunitario» central para el Paso 4.
 4. **La CDMX es un polo regional.** En 2007–2022, ~31 % de las atenciones ILE fueron de personas de otras entidades. La distancia, el costo y el tiempo de traslado son barreras documentadas. Sin embargo, **no existen datos de trayectos, costos ni transbordos**, y ese es el vacío que ocupa Ruta Libre.
 5. **Frenos y riesgos:** reformas «provida» locales, objeción de conciencia, desinformación (servicios falsos), dictamen capitalino de despenalización total frenado en 2024 por «falta de consenso», y presión sobre el sistema público de salud.
@@ -19,7 +19,8 @@ Este documento complementa la línea del tiempo 2006–2026 («Recopilación.doc
 
 ## 2. Método y límites (leer antes de citar)
 
-- Se usó búsqueda web el 25 de oct. de 2026. **Las páginas no se pudieron abrir de forma directa** (el entorno bloqueó la descarga), así que los datos provienen de lo que muestran los buscadores sobre cada fuente, no de lectura completa del documento.
+- Se usó búsqueda web el 25 de oct. de 2026. En una **primera pasada** no se pudieron abrir las páginas y los datos salían de resúmenes de buscador. En una **segunda pasada (verificación)** se descargaron y leyeron directamente: engrose y reseña del AR 267/2023 (SCJN), sinopsis de la AI 148/2017 (SCJN), micrositio de GIRE, Cimac, Crónica, Infobae, Expansión, El Financiero (teleacompañamiento), boletín de la CDHCM y el informe de Fundar. Esas fuentes llevan la marca ✔ en la sección 10.
+- **Siguen sin verificarse por lectura directa**: los PDF de la Secretaría de Salud CDMX (la conexión fue rechazada), el comunicado de prensa de la SCJN (error 403; se usó la reseña oficial), PMC/Fondo MARIA, SciELO, CLACAI/Gynuity, N+, AP/NBC/Telemundo, ACI Prensa y las notas sobre IMSS-Bienestar.
 - Por eso cada hallazgo lleva un **nivel de confianza**:
   - 🟢 **Alta**: fuente primaria (SCJN, gobierno) o varias fuentes coinciden.
   - 🟡 **Media**: una sola fuente secundaria o con discrepancias.
@@ -39,7 +40,7 @@ Este documento complementa la línea del tiempo 2006–2026 («Recopilación.doc
 | **Redes de acompañamiento a gran escala** (Las Libres, Necesito Abortar México, Aborto Seguro Chihuahua) | Las Libres (Guanajuato, ~20 años): su líder dijo que tras Dobbs recibieron hasta ~300 solicitudes diarias de EE. UU. Necesito Abortar: testimonios de ~120–160 acompañadas al mes por persona. | Cifras de testimonios periodísticos (AP/NBC, BBC, Telemundo), no oficiales. | 🟡 |
 | **Telemedicina feminista** (Telefem, TeleAborto/Gynuity) | Envío de medicamentos con consulta a distancia. Estudio con organizaciones mexicanas: se enviaron paquetes a residentes de los 32 estados; 42 % vivía a 500 km o más del centro de estudio; 93 % de quienes dieron seguimiento reportó aborto exitoso sin intervención adicional. | Gynuity / CLACAI. | 🟢 (estudio), 🟡 (precios y escala) |
 | **Litigio estratégico (GIRE y aliadas)** | Promueve amparos de asociaciones civiles; fue clave en el AR 267/2023 y litiga en 13 estados (reasunción de competencia 145/2023). | SCJN; GIRE; Vanguardia. | 🟢 |
-| **Fondos y ONG de apoyo** (Fondo MARIA, Fundar, Ipas) | Apoyo económico y de traslado; investigación sobre barreras (Fundar recoge 43 testimonios, sobre todo de CDMX y Edomex). | PMC; Fundar. | 🟡 |
+| **Fondos y ONG de apoyo** (Fondo MARIA, Fundar, Ipas) | Apoyo económico y de traslado; investigación sobre barreras (Fundar ✔: 43 entrevistas a mujeres en el 28S de 2024; 83 % residía en la ZMVM). | PMC; Fundar ✔. | 🟡 (PMC), 🟢 (Fundar) |
 | **Contramovimiento «provida»** | Reformas constitucionales locales «desde la concepción» (21 estados a 2019 según medios afines), marchas y presión a la SCJN. | ACI Prensa (fuente con postura); El Financiero sobre Aguascalientes. | 🟡 |
 
 ### 3.2 Fuerzas motoras que se desprenden
@@ -65,27 +66,32 @@ Este documento complementa la línea del tiempo 2006–2026 («Recopilación.doc
 | 2021 (7 sep) | SCJN, AI 148/2017 (Coahuila): la criminalización absoluta es inconstitucional. | Sentencia con efectos nacionales | 🟢 |
 | 2022 | La CDMX anuncia piloto de **teleacompañamiento** (TEleILE) y reporta 252,760 ILE a ago. 2022. | Innovación pública | 🟡 |
 | 2023 (6 sep) | SCJN, AR 267/2023: inconstitucionales los arts. 330–334 del CPF; se ordena al Congreso de la Unión derogar. | Amparo de una asociación civil | 🟢 (con matiz, ver abajo) |
-| 2023–2024 | GIRE pide atraer amparos de 13 estados; la Primera Sala desecha (3–2) reasumir competencia sobre ocho (Jalisco, Sonora, Tabasco, Michoacán, Chiapas, Querétaro, Tlaxcala, Campeche). Siguen en tribunales colegiados. | Litigio estratégico | 🟡 |
-| 4-nov-2024 | Comisiones del Congreso CDMX aprueban (15–6) dictamen que elimina el delito de aborto. | Iniciativa legislativa | 🟢 |
-| 7-nov-2024 | Se frena en el pleno: «no hay fecha» y falta de consenso (Infobae). PAN y MC lo critican. | Contramovimiento + cálculo político | 🟡 |
+| 2023 (30 ago) | SCJN, AR 79/2023 ✔: ordena derogar el aborto autoprocurado en Aguascalientes; se cumple en dic. 2023 (12.6 semanas). **En ago. 2024 el Congreso local reduce a 6 semanas**; GIRE lo considera «prohibición disfrazada» y penalización de facto. | Sentencia + retroceso local | 🟢 |
+| 2023–2024 | GIRE pide atraer amparos de 13 estados; la Primera Sala desecha (3–2) reasumir competencia sobre ocho (Jalisco, Sonora, Tabasco, Michoacán, Chiapas, Querétaro, Tlaxcala, Campeche). Siguen en tribunales colegiados. En 2024, tribunales colegiados de Jalisco, Nayarit y Zacatecas ordenaron a sus congresos derogar el delito ✔ (GIRE). | Litigio estratégico | 🟡 |
+| 4-nov-2024 | Comisiones del Congreso CDMX aprueban dictamen que deroga los arts. 144, 145, 147 y 148 del Código Penal (el voto 15–6 sale de El Universal, no verificado). | Iniciativa legislativa | 🟢 (Infobae ✔) |
+| 6-nov-2024 | La Jucopo y la Mesa Directiva **retiran el dictamen del orden del día** «por la necesidad de mayor respaldo político y social» y por manifestaciones provida; Cecilia Vadillo (Morena): «no hay una fecha establecida». La diputada América Rangel (PAN) anuncia que se opondrán. | Contramovimiento + cálculo político | 🟢 (Infobae ✔) |
 | 2024–2025 | Servicios falsos de ILE cerca de unidades públicas; IMSS-Bienestar CDMX: 19,300 ILE (jul-2024 a dic-2025). | Riesgo informativo / datos | 🟢 (Recopilación) |
-| 2025–2026 | Entre 22 y 24 entidades despenalizan (según el medio y el criterio); 7 penalizan. Campeche se suma en feb. 2025. | Efecto en cadena | 🟡 |
+| 2024–2025 | Efecto dominó: 7 entidades en 2024 (Puebla, Jalisco, Michoacán, Chiapas, SLP, Zacatecas, Edomex) y 6 en 2025 (Chihuahua, Nayarit, Campeche, Yucatán, Tabasco, Tlaxcala). | Efecto en cadena | 🟢 (GIRE ✔) |
+| sep-2026 | GIRE lista **24 entidades** con año de despenalización; Aguascalientes aparte (penalización de facto). | Estado actual | 🟢 (GIRE ✔) |
 
 **Dos matices que hay que decir con honestidad si se cita el AR 267/2023:**
-- Votación: el comunicado de la SCJN habla de **mayoría de tres votos** a favor de ordenar la derogación; el boletín de la CDHCM y UnoTV hablan de unanimidad. Citar el engrose.
-- Alcance: el amparo protege a la asociación quejosa; la declaratoria apunta a los arts. 330–334 y ordena al Congreso derogar. Aplica en el ámbito federal (hospitales IMSS, ISSSTE, Sedena, Pemex y Ssa, según GIRE), no sustituye a los códigos estatales.
+- **Votación (resuelto con el engrose ✔):** **unanimidad de cinco votos en cuanto al fondo** (Ríos Farjat, ponente; Zaldívar; González Alcántara; Gutiérrez Ortiz Mena; Pardo Rebolledo, presidente) y **mayoría de tres votos en cuanto a los efectos** (Zaldívar, González Alcántara y Gutiérrez Ortiz Mena; en contra Ríos Farjat y Pardo Rebolledo). Las fuentes que decían «unanimidad» y las que decían «tres votos» describían partes distintas de la misma sentencia.
+- **Alcance:** se concede el amparo a una asociación civil contra los arts. 330, 331, 332, 333 y 334 del CPF; el engrose declara inconstitucionales los arts. 331 y 332 en su totalidad y partes de los otros, y **constriñe al Congreso federal a derogarlos**. La CDHCM subraya que los efectos son limitados ✔.
+- **Pendiente:** según GIRE (sep. 2026), **esa resolución aún no se ha cumplido** ✔: el Congreso no ha derogado los artículos del CPF.
 
 ### 4.2 Estado actual del mapa legal (conteos que difieren)
 
 | Fuente | Fecha | Entidades |
 |---|---|---|
 | El Financiero | feb. 2025 | 22 (con Campeche) |
-| Cimac (datos GIRE) | sep. 2025 | 23 |
-| Crónica | sep. 2026 | 24 (7 penalizan) |
-| GIRE | datos a abr. 2026 | consultar mapa |
+| Cimac ✔ (datos GIRE) | sep. 2025 | 23 (Tlaxcala aún contada entre las que penalizan) |
+| GIRE ✔ | sep. 2026 | **24** (Tlaxcala ya incluida, 2025); Aguascalientes aparte, como penalización de facto |
+| Crónica ✔ | sep. 2026 | 24 (coincide con GIRE; dice «siete» penalizan pero nombra ocho, contando Aguascalientes) |
+| Fundar ✔ | ago. 2026 | 25 (probablemente suma Aguascalientes) |
 
-Casos especiales: Guerrero y Michoacán (mujer no penalizada; sí quien asiste después de la semana 12); **Sinaloa** (hasta la semana 13); **Coahuila** (despenalizado por sentencias, sin reforma del código); **Aguascalientes y Tlaxcala** (en disputa, penalización de facto).
-**Para la presentación se recomienda decir «entre 22 y 24 entidades, según la fuente y el criterio»**, o contar de GIRE directamente.
+**Las entidades que aún penalizan, según Crónica ✔:** Aguascalientes (6 semanas), Sonora, Querétaro, Durango, Guanajuato, Morelos, Nuevo León y Tamaulipas. 24 + 8 = 32.
+Casos especiales ✔: Guerrero y Michoacán (la mujer no es penalizada; sí quien asiste después de la semana 12); **Sinaloa** (hasta la semana 13); **Coahuila** (despenalizado por sentencia).
+**Cifra recomendada para la presentación: «24 entidades (GIRE, sep. 2026), más Aguascalientes, donde el plazo se redujo a 6 semanas».**
 
 ### 4.3 Fuerzas motoras que se desprenden
 
@@ -104,10 +110,10 @@ Casos especiales: Guerrero y Michoacán (mujer no penalizada; sí quien asiste d
 | # | Tendencia | Dirección | Fuerzas motoras asociadas | Datos / evidencia | Conf. |
 |---|---|---|---|---|---|
 | T1 | **De la causal a la decisión**: marco legal pasa de supuestos específicos a plazos voluntarios | ↗ | F-P1, F-A1 | 2007 → 2021 → 2023; 22–24 entidades | 🟡 |
-| T2 | **El servicio deja de estar solo en la CDMX** y se reparte por entidad, pero con plazos y calidad desiguales | ↗ (desigual) | F-P1, F-P2, F-P3 | 7 entidades penalizan; Guerrero/Michoacán/Sinaloa con plazos distintos | 🟡 |
+| T2 | **El servicio deja de estar solo en la CDMX** y se reparte por entidad, pero con plazos y calidad desiguales | ↗ (desigual) | F-P1, F-P2, F-P3 | 24 entidades despenalizan; 8 penalizan o restringen (incl. Aguascalientes); Guerrero/Michoacán/Sinaloa con esquemas distintos (GIRE ✔, Crónica ✔) | 🟢 |
 | T3 | **La CDMX sigue siendo polo regional** | → (estable o a la baja con la despenalización local) | F-P1, F-A1 | ~31 % de ILE 2007–ago 2022 de otras entidades; Puebla 1,627 casos (SAMIH, citado por Grupo Animal) | 🟡 |
 | T4 | **Aborto fuera de la clínica**: medicamentos, telemedicina y acompañamiento comunitario | ↗ | F-A1, F-A2, F-P5 | 93 % de éxito en estudio de telemedicina; más de 50 colectivas (N+) | 🟡 |
-| T5 | **Dependencia de la movilidad**: personas de otras entidades viajan horas y gastan en traslado, comida y hospedaje | → | F-P3, F-P4 | Fundar (43 testimonios); Fondo MARIA (PMC) | 🟡 |
+| T5 | **Dependencia de la movilidad**: servicios centralizados en capitales o zonas muy pobladas, con turnos limitados que se reparten muy temprano; quien no alcanza turno debe buscar hospedaje o pagar otro pasaje para volver ✔ | → | F-P3, F-P4 | Fundar ✔ (43 entrevistas, 2024; informe de ago. 2026, que cuenta 405 servicios de aborto seguro en el país); Fondo MARIA (PMC, sin verificar) | 🟢 |
 | T6 | **Digitalización y datos abiertos**, pero sin variables de trayecto | ↗ datos, ✖ movilidad | F-P4 | Informe IMSS-Bienestar CDMX 2024–2025 (19,300 ILE) | 🟢 |
 | T7 | **Desinformación y servicios falsos** | ↗ | F-A3 | Alerta de la Secretaría de Salud en 2024 | 🟢 (Recopilación) |
 | T8 | **Movilidad metropolitana**: viajes largos y dependientes del transporte colectivo | → | contexto | EOD 2017 (INEGI): ~35 millones de viajes diarios, ~45 % en transporte público; 27.4 % de viajes de más de 1 h a 2 h | 🟡 |
@@ -137,7 +143,7 @@ Indicadores observables para anclar cada escenario y no caer en optimismo ni cat
 | Fuerza | Colapso | Inercial | Transformación |
 |---|---|---|---|
 | Jurisprudencia SCJN (F-P1) | Retroceso o parálisis de litigios | Avanza caso por caso | Homologación nacional |
-| Congresos locales (F-P2) | Reformas «desde la concepción» | Cada entidad a su ritmo | Los 7 restantes se alinean; CDMX despenaliza totalmente |
+| Congresos locales (F-P2) | Reformas «desde la concepción» | Cada entidad a su ritmo | Las 8 restantes se alinean; CDMX despenaliza totalmente |
 | Capacidad de salud (F-P3) | Saturación, objeción generalizada | Servicios concentrados | Servicios cercanos en cada alcaldía y municipio conurbado |
 | Acompañamiento (F-A1) | Criminalización de acompañantes | Redes informales | Reconocimiento y articulación con servicios públicos |
 | Datos (F-P4) | Sin datos o con riesgo para la privacidad | Cifras agregadas | Datos de acceso y trayecto, abiertos y sin identificar personas |
@@ -147,11 +153,11 @@ Indicadores observables para anclar cada escenario y no caer en optimismo ni cat
 
 ## 8. Vacíos y pendientes de verificación
 
-1. **Votación del AR 267/2023**: comparar comunicado (3 votos) vs. engrose. 🟡
-2. **Conteo de entidades**: usar el mapa de GIRE (abortomexico.gire.org.mx) y fijar fecha de corte. 🟡
+1. ~~Votación del AR 267/2023~~ **Resuelto** con el engrose: 5–0 al fondo, 3–2 en efectos. Falta el cumplimiento por el Congreso (GIRE: pendiente).
+2. ~~Conteo de entidades~~ **Resuelto**: 24 según GIRE (sep. 2026) más Aguascalientes aparte. Citar siempre la fecha de corte.
 3. **Pleno del Congreso CDMX**: no se hallaron notas posteriores a nov. de 2024 sobre una votación; revisar la Gaceta Parlamentaria. 🔴
-4. **«Casi 70 % de ILE de 2020–2021 fue de estados donde sigue penalizado»** (El Financiero 2022): contradice el ~31 % de otras entidades acumulado; **no usar** hasta verificar. 🔴
-5. **Estado del piloto TEleILE** y su cobertura actual. 🔴
+4. **«Cerca del 70 % de las ILE de 2020–2021 fueron de mujeres de otros estados»**: la afirmación **sí aparece** en El Financiero (26-abr-2022) ✔, atribuida a «las autoridades capitalinas», pero Expansión (7-may-2022) ✔ reporta 68.8 % residentes de la CDMX y 31.1 % de otras entidades en 15 años. Los datos no son incompatibles solo si el porcentaje cambió mucho entre periodos, y no se pudo comprobar porque los PDF de la Secretaría de Salud CDMX no abrieron. **No usar el 70 % hasta verificarlo; sí usar el 31.1 % (2007–2022).** 🔴
+5. **TEleILE**: confirmado que se anunció en 2022 como piloto híbrido en tres unidades (Centro de Salud TIII Cuajimalpa, Clínica Comunitaria Santa Catarina y Hospital General Ticomán) con asesoría de Ipas CAM ✔ (Expansión). **Su estado actual y cobertura siguen sin confirmarse.** 🔴
 6. **Cifras recientes de ILE por Estado de México** y por alcaldía de residencia: no se encontraron. 🔴
 7. **Mortalidad materna por aborto inseguro**: solo hay cifras de organizaciones (más de 7 %, Telefem) y del subregistro histórico (INEGI 2009: 6 %); falta dato oficial SINAIS/INEGI. 🔴
 8. **Situación de la objeción de conciencia** (art. 10 Bis LGS): una nota indica que la SCJN invalidó el artículo, pero sin fecha confirmada. 🔴
@@ -171,28 +177,31 @@ Indicadores observables para anclar cada escenario y no caer en optimismo ni cat
 
 ## 10. Fuentes
 
+**Leyenda:** ✔ = abierta y leída directamente en la verificación del 25-oct-2026. Sin marca = tomada de resumen de buscador.
+
 **Documentos del equipo**
 - `Recopilación.docx` (línea del tiempo 2006–2026) y copia de issues (`chilangaton-issues.md`).
 
 **Resoluciones y datos oficiales**
-- SCJN, comunicado AR 267/2023: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7504
+- SCJN, comunicado AR 267/2023 (no accesible en la verificación, 403): https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7504
 - SCJN, proyecto de sentencia AR 267/2023: https://www.scjn.gob.mx/sites/default/files/listas/documento_dos/2023-08/230830-AR-267-2023.pdf
-- SCJN, reseña AR 267/2023: https://scjn.gob.mx/sites/default/files/primera-sala/sentencias/2024-01/RESE%C3%91A%20-%20AMRF%20-%20AR%20267-2023%20%28El%20delito%20de%20aborto%20en%20el%20C%C3%B3digo%20Penal%20Federal%20es%20inconstitucional%29.docx
-- SCJN, sinopsis AI 148/2017: https://www.scjn.gob.mx/sites/default/files/sinopsis_asuntos_destacados/documento/2021-10/TP-070921-LMAM-0148-17.pdf
+- SCJN, **engrose AR 267/2023** ✔: https://scjn.gob.mx/sites/default/files/primera-sala/sentencias/2024-01/ENGROSE%20-%20AMRF%20-%20AR%20267-2023%20%28El%20delito%20de%20aborto%20en%20el%20C%C3%B3digo%20Penal%20Federal%20es%20inconstitucional%29.docx
+- SCJN, reseña AR 267/2023 ✔: https://scjn.gob.mx/sites/default/files/primera-sala/sentencias/2024-01/RESE%C3%91A%20-%20AMRF%20-%20AR%20267-2023%20%28El%20delito%20de%20aborto%20en%20el%20C%C3%B3digo%20Penal%20Federal%20es%20inconstitucional%29.docx
+- SCJN, sinopsis AI 148/2017: https://www.scjn.gob.mx/sites/default/files/sinopsis_asuntos_destacados/documento/2021-10/TP-070921-LMAM-0148-17.pdf ✔
 - SCJN, sentencia AI 148/2017: https://www.scjn.gob.mx/derechos-humanos/sites/default/files/sentencias-emblematicas/sentencia/2022-05/AI%20148-2017.pdf
-- CDHCM, boletín 124/2023: https://cdhcm.org.mx/wp-content/uploads/2023/09/Boeltin_124_2023.pdf
+- CDHCM, boletín 124/2023: https://cdhcm.org.mx/wp-content/uploads/2023/09/Boeltin_124_2023.pdf ✔
 - Secretaría de Salud CDMX, cifras ILE (2022): https://www.salud.cdmx.gob.mx/storage/app/uploads/public/633/4cf/d14/6334cfd14b5eb321223287.pdf
 - Secretaría de Salud CDMX, otro informe: https://www.salud.cdmx.gob.mx/storage/app/uploads/public/66f/84b/b28/66f84bb28f560039675583.pdf
 - INEGI, Encuesta Origen Destino 2017 (resumen en Expansión): https://expansion.mx/nacional/2018/02/19/45-de-los-viajes-en-el-valle-de-mexico-son-en-transporte-publico
 - WRI México, base EOD ajustada (2023): https://es.wri.org/sites/default/files/2023-10/23_WRI%20TEMPLATE_A4_Working%20Paper-EOD%209%20OCTUBRE%20-.pdf
 
 **Organizaciones**
-- GIRE, Aborto en México: https://abortomexico.gire.org.mx/aborto-en-datos/
+- GIRE, Aborto en México: https://abortomexico.gire.org.mx/aborto-en-datos/ ✔
 - GIRE, evolución del aborto: https://abortomexico.gire.org.mx/preguntas-mitos/cual-ha-sido-la-evolucion-del-aborto-en-mexico/
 - GIRE, sentencias sobre aborto (2025): https://gire.org.mx/wp-content/uploads/2025/10/%E2%88%9A2025_09_01_SENTENCIAS_ABORTO_ESP.pdf
 - GIRE, boletín del amparo contra el CPF (2022): https://gire.org.mx/wp-content/uploads/2022/09/Boleti%CC%81n_amparo-CPF_Septiembre2022.docx.pdf
 - GIRE, informe 2023: https://informe2023.gire.org.mx/court/
-- Fundar, «Voces por el derecho a decidir»: https://fundar.org.mx/wp-content/uploads/2026/09/Documento.-Voces-por-el-derecho-a-decidir.pdf
+- Fundar, «Voces por el derecho a decidir»: https://fundar.org.mx/wp-content/uploads/2026/09/Documento.-Voces-por-el-derecho-a-decidir.pdf ✔
 - Ipas México, el aborto como asunto de salud pública: https://ipasmexico.org/pdf/IpasCAM-2021-ElAbortoComoUnAsuntoDeSaludPublica.pdf
 - Ipas México, objeción de conciencia: https://ipasmexico.org/pdf/IpasMx-2020-ObjecionDeConciencia.pdf
 
@@ -215,15 +224,15 @@ Indicadores observables para anclar cada escenario y no caer en optimismo ni cat
 - Grupo Animal, CDMX y barreras: https://grupoanimal.mx/sociedad/aborto-cdmx-mujeres-barreras
 - Grupo Animal, acceso sigue siendo un desafío: https://grupoanimal.mx/opinion/aborto-voluntario-legal-pais-acceso-desafio
 - Ejecentral, 19 años de la ILE: https://www.ejecentral.com.mx/nuestro-eje/a-19-anos-de-la-ile-en-cdmx-avances-retos-y-el-llamado-urgente-para-garantizar-el-acceso-en-todo-mexico
-- Infobae, dictamen frenado (nov. 2024): https://www.infobae.com/mexico/2024/11/07/frenan-dictamen-para-la-despenalizacion-total-del-aborto-en-la-cdmx-argumentan-falta-de-consenso/
+- Infobae, dictamen frenado (nov. 2024): https://www.infobae.com/mexico/2024/11/07/frenan-dictamen-para-la-despenalizacion-total-del-aborto-en-la-cdmx-argumentan-falta-de-consenso/ ✔
 - El Universal, dictamen en comisiones: https://www.eluniversal.com.mx/metropoli/congreso-de-cdmx-aprueba-dictamen-que-despenaliza-totalmente-el-aborto-en-la-capital/
 - El Financiero, avanza en Congreso de CDMX: https://www.elfinanciero.com.mx/cdmx/2024/11/04/avanza-en-congreso-de-cdmx-la-despenalizacion-total-del-aborto-de-que-va-la-iniciativa/
 - ADN40, eliminan delito de aborto (comisiones): https://www.adn40.mx/ciudad/2024-11-04/eliminan-delito-aborto-codigo-penal-cdmx-interrupcion-embarazo/
 - El Financiero, Campeche (22 entidades): https://www.elfinanciero.com.mx/estados/2025/02/25/campeche-se-suma-a-la-marea-verde-cuales-son-los-estados-que-han-despenalizado-el-abortomapa/
-- Cimac, entidades que han despenalizado (sep. 2025): https://cimacnoticias.com.mx/2025/09/25/cuantas-entidades-han-despenalizado-el-aborto-y-en-que-situacion-se-encuentra-cada-una/
-- Crónica, mapa actualizado (sep. 2026): https://www.cronica.com.mx/nacional/2026/09/28/mapa-actualizado-que-estados-han-despenalizado-el-aborto-en-mexico/
-- El Financiero, teleacompañamiento CDMX (2022): https://www.elfinanciero.com.mx/cdmx/2022/04/26/aborto-en-cdmx-gobierno-lanzara-programa-de-teleacompanamiento/
-- Expansión, atención a distancia (2022): https://politica.expansion.mx/cdmx/2022/05/07/la-cdmx-avanza-hacia-atencion-a-distancia-para-interrupcion-del-embarazo
+- Cimac, entidades que han despenalizado (sep. 2025): https://cimacnoticias.com.mx/2025/09/25/cuantas-entidades-han-despenalizado-el-aborto-y-en-que-situacion-se-encuentra-cada-una/ ✔
+- Crónica, mapa actualizado (sep. 2026): https://www.cronica.com.mx/nacional/2026/09/28/mapa-actualizado-que-estados-han-despenalizado-el-aborto-en-mexico/ ✔
+- El Financiero, teleacompañamiento CDMX (2022): https://www.elfinanciero.com.mx/cdmx/2022/04/26/aborto-en-cdmx-gobierno-lanzara-programa-de-teleacompanamiento/ ✔
+- Expansión, atención a distancia (2022): https://politica.expansion.mx/cdmx/2022/05/07/la-cdmx-avanza-hacia-atencion-a-distancia-para-interrupcion-del-embarazo ✔
 - N+, acompañantes de aborto: https://www.nmas.com.mx/salud/ninguna-mujer-debe-abortar-sintiendose-sola-y-con-miedo-acompanantas-de-aborto/
 - CNN Chile, red mexicana de pastillas a EE. UU.: https://www.cnnchile.com/mundo/red-mexicana-pildoras-aborto-estados-unidos/
 - NBC News, red de derechos reproductivos: https://www.nbcnews.com/news/latino/mexico-reproductive-rights-network-helps-us-women-obtain-abortions-rcna77884
