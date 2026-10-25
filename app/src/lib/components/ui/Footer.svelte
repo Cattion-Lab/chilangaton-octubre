@@ -22,6 +22,7 @@
 	<ul>
 		<li><a href="/consultar">Consultar clínica</a></li>
 		<li><a href="/datos">Datos y fuentes</a></li>
+		<li><a href="/fundamentos">Fundamentos</a></li>
 		<li><a href="/privacidad">Aviso de privacidad</a></li>
 	</ul>
 </footer>
