@@ -191,7 +191,9 @@ El desarrollo tecnológico ha permitido nuevas formas de consulta y orientación
 | Cuidados y desigualdades | Del trabajo invisible al derecho exigible | Derecho reconocido por la SCJN (2023); Ley de Cuidados CDMX (2026); envejecimiento | Ley aplicada parcialmente; la carga sigue sobre las mujeres |
 | Producción de datos | Más datos, menos transparentes | Federalización; fin del INAI; primera cifra por entidad en 2026 | Series tardías; movilidad solo inferida por entidad |
 
-# -----**5. Escenarios de futuro: Ciudad de México 2046**
+---
+
+# **5. Escenarios de futuro: Ciudad de México 2046**
 
 ## **Escenario inercial**
 
@@ -237,7 +239,9 @@ Las colectivas, acompañantas y organizaciones comunitarias participarán en la 
 
 🔵 **Precedentes y condiciones (añadido):** ya existen piezas: el piloto TELEILE como modelo de colaboración con colectivas, la Ley del Sistema de Cuidados (2026), el Cablebús y el Trolebús Chalco–Santa Martha como conexión Estado de México–CDMX, y ILE en SEDESA/IMSS-Bienestar, ISSSTE y, según prensa, IMSS. Condiciones que hoy no se cumplen: autoridad de datos independiente (la actual depende del Ejecutivo), reforma federal sobre cuidados, microdatos de procedencia por alcaldía o municipio y una Encuesta Origen-Destino actualizada.
 
-# -----**6. Propuesta de investigación para alcanzar el escenario de transformación**
+---
+
+# **6. Propuesta de investigación para alcanzar el escenario de transformación**
 
 Ruta Libre propone desarrollar una investigación aplicada que articule tres líneas prioritarias, atravesadas por una perspectiva de cuidados, interculturalidad, derechos humanos y protección de la privacidad. Su propósito es generar conocimiento susceptible de convertirse en indicadores territoriales y recomendaciones para la política pública.
 
@@ -265,7 +269,9 @@ El conocimiento comunitario no será utilizado para sustituir funciones gubernam
 
 🔵 **Contexto añadido:** precedentes con los que se puede dialogar: Fondo MARIA (apoyo logístico y de traslado, desde 2009), Red de Aborteras (19 estados y 7 países), Red Necesito Abortar, Las Libres, Marea Verde Chihuahua y el piloto TELEILE con IPAS (2022) [PRENSA/ONG]. GIRE acompañó a 90 personas en 9 entidades en 2025 [ONG]. No se encontraron datos sobre financiamiento, agotamiento o seguridad de las acompañantes, ni sobre criminalización de acompañantes en la CDMX [NO VERIFICADO]: son preguntas para las entrevistas de la Fase 3. Las cifras de organizaciones, como los envíos de pastillas a unas 20,000 mujeres en EE. UU. que declara Las Libres, son declaraciones y no están auditadas.
 
-# -----**7. Enfoques transversales**
+---
+
+# **7. Enfoques transversales**
 
 ## **Cuidados**
 
@@ -291,7 +297,9 @@ El proyecto utiliza la palabra **aborto** para nombrar la experiencia y el ejerc
 
 La manera de nombrar forma parte de las condiciones de acceso a la información. Por ello, Ruta Libre analizará cómo las narrativas institucionales pueden facilitar la comprensión de los derechos o introducir barreras que afecten las decisiones de movilidad.
 
-# -----**8. Metodología de investigación**
+---
+
+# **8. Metodología de investigación**
 
 La propuesta contempla una metodología mixta, territorial y participativa, desarrollada mediante un piloto de alcance definido.
 
@@ -315,7 +323,9 @@ Se desarrollarán ejercicios participativos con colectivas, acompañantas y ciud
 
 La información recopilada permitirá construir un diagnóstico territorial y formular recomendaciones para la coordinación institucional. Los resultados se presentarán de manera agregada, mediante mecanismos de devolución a las personas y organizaciones participantes. La investigación también identificará sus limitaciones y las condiciones necesarias para ampliar el modelo.
 
-# -----**9. Resultados esperados y aplicación gubernamental**
+---
+
+# **9. Resultados esperados y aplicación gubernamental**
 
 La investigación propone desarrollar los siguientes productos:
 
@@ -347,7 +357,9 @@ El piloto deberá permitir comprobar la viabilidad del modelo mediante criterios
 
 Estos indicadores servirán para evaluar el funcionamiento de la metodología, no para clasificar a las personas que utilizan servicios de aborto.
 
-# -----**10. Contribución al futuro de la Ciudad de México**
+---
+
+# **10. Contribución al futuro de la Ciudad de México**
 
 Ruta Libre reconoce que la Ciudad de México cuenta con avances jurídicos, infraestructura pública, experiencia institucional y recursos tecnológicos que constituyen una base para desarrollar nuevas investigaciones. La propuesta plantea aprovechar estas capacidades mediante un modelo que conecte la movilidad reproductiva con la planeación territorial, la participación ciudadana y el derecho al cuidado.
 
@@ -359,7 +371,9 @@ Hacia 2046, aspiramos a una ciudad donde las personas puedan elegir sus desplaza
 
 **Una ciudad que garantiza derechos no es aquella que tiene más herramientas para encontrarlos, sino aquella que construye las condiciones para ejercerlos.**
 
-# -----**Referencias**
+---
+
+# **Referencias**
 
 Coordinación Estatal de IMSS-Bienestar de la Ciudad de México. (s. f.). *Productividad del Programa de Interrupción Legal del Embarazo (ILE): Julio 2024–diciembre 2025* [Informe estadístico]. <https://ile.salud.cdmx.gob.mx/wp-content/uploads/Informe-estad%C3%ADstico-de-Interrupci%C3%B3n-Legal-del-Embarazo-Julio-2024-Diciembre-2025.pdf>
 
