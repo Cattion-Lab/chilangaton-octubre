@@ -37,14 +37,21 @@ RUTA LIBRE no solo permite identificar dónde acceder a servicios de aborto, sin
 
 ## Resultado
 
-RUTA LIBRE quedó entre los proyectos finalistas del Laboratorio de Futuros del Chilangatón 2026, organizado por SECTEI y SEDECO de la CDMX; el evento se realizó el 25 de octubre en la UTOPÍA Elena Poniatowska Amor, Coyoacán. El equipo estuvo integrado por Paola Camila Alós Villalba, Ana Victoria Avila Alvarez, Francisco Fernando Guzmán Villanueva y Santiago García Arellano. El sitio en producción permite comparar trayectos en transporte público a las 14 unidades públicas de ILE de la CDMX sin cuenta ni ubicación exacta; además, ofrece fichas de cada clínica, un mapa con la fuente de las zonas donde se reportó presencia antiaborto, chat de orientación e investigación del equipo en «Fundamentos».
+RUTA LIBRE se presentó en representación de Cattion en el Chilangatón 2026, celebrado el 25 de octubre en la CDMX, dentro del track Laboratorio de Futuros, donde quedó entre los proyectos finalistas. En producción, permite comparar trayectos en transporte público hacia las 14 unidades públicas de ILE de la CDMX sin cuenta ni ubicación exacta; además, ofrece fichas de cada clínica, un mapa que muestra, junto con su fuente, las zonas donde se reportó presencia antiaborto, un chat de orientación e investigación del equipo en «Fundamentos».
 
-## Equipo
+## Créditos
+
+RUTA LIBRE es un proyecto de Cattion, colectiva interdisciplinaria de tecnología, diseño y humanidades; sus integrantes en el proyecto son:
+
+- Ana Victoria Avila Alvarez
+- Santiago García Arellano
+
+### Colaboración
+
+Agradecemos a las personas colaboradoras por acompañar al equipo durante el evento:
 
 - Paola Camila Alós Villalba
-- Ana Victoria Avila Alvarez
 - Francisco Fernando Guzmán Villanueva
-- Santiago García Arellano
 
 ## Criterios de evaluación
 
@@ -59,3 +66,9 @@ Lista de documentos y pendientes: [`docs/documentos.md`](docs/documentos.md). Ba
 - [`docs/investigaciones/`](docs/investigaciones/): cinco investigaciones del equipo (atribuciones de dependencias, indicadores de accesibilidad, privacidad y criminalización, precedentes, verificación de cifras).
 - [`docs/respuestas-formulario-evaluacion.md`](docs/respuestas-formulario-evaluacion.md): borrador de respuestas al formulario de evaluación del Laboratorio de Futuros.
 - [`docs/recopilacion-vigilias.md`](docs/recopilacion-vigilias.md): notas sobre vigilias frente a clínicas, con verificación y fuentes.
+
+## Licencia
+
+El código se publica bajo GNU Affero General Public License v3.0 (AGPL-3.0); el texto completo está en el archivo [`LICENSE`](LICENSE). La licencia permite usar, estudiar, modificar y redistribuir el código; quien distribuya una versión modificada o la ofrezca a otras personas como servicio en la web debe publicar el código fuente bajo la misma licencia.
+
+Copyright: © 2026 Cattion y colaboradores.
