@@ -35,6 +35,10 @@ Plataforma web de cartografía participativa que conecta movilidad, seguridad y 
 
 RUTA LIBRE no solo permite identificar dónde acceder a servicios de aborto, sino también planear cómo llegar de forma segura, informada y autónoma. Al integrar datos institucionales con saberes comunitarios, facilita la movilidad de las personas y genera información útil para mejorar las políticas públicas.
 
+## Resultado
+
+RUTA LIBRE quedó entre los proyectos finalistas del Laboratorio de Futuros del Chilangatón 2026, organizado por SECTEI y SEDECO de la CDMX; el evento se realizó el 25 de octubre en la UTOPÍA Elena Poniatowska Amor, Coyoacán. El equipo estuvo integrado por Paola Camila Alós Villalba, Ana Victoria Avila Alvarez, Francisco Fernando Guzmán Villanueva y Santiago García Arellano. El sitio en producción permite comparar trayectos en transporte público a las 14 unidades públicas de ILE de la CDMX sin cuenta ni ubicación exacta; además, ofrece fichas de cada clínica, un mapa con la fuente de las zonas donde se reportó presencia antiaborto, chat de orientación e investigación del equipo en «Fundamentos».
+
 ## Equipo
 
 - Paola Camila Alós Villalba
@@ -52,4 +56,6 @@ Este repositorio reúne la evidencia del trabajo del equipo durante el evento; t
 
 Lista de documentos y pendientes: [`docs/documentos.md`](docs/documentos.md). Bases del evento: [`docs/CHILANGATON-EXT.pdf`](docs/CHILANGATON-EXT.pdf).
 
+- [`docs/investigaciones/`](docs/investigaciones/): cinco investigaciones del equipo (atribuciones de dependencias, indicadores de accesibilidad, privacidad y criminalización, precedentes, verificación de cifras).
+- [`docs/respuestas-formulario-evaluacion.md`](docs/respuestas-formulario-evaluacion.md): borrador de respuestas al formulario de evaluación del Laboratorio de Futuros.
 - [`docs/recopilacion-vigilias.md`](docs/recopilacion-vigilias.md): notas sobre vigilias frente a clínicas, con verificación y fuentes.
