@@ -8,7 +8,7 @@
 	}: { title: string; description: string; ogTitle?: string } = $props();
 
 	const origin = $derived(
-		page.url.origin === 'http://sveltekit-prerender' ? 'https://chilangoton2026.cattion.com' : page.url.origin
+		page.url.origin === 'http://sveltekit-prerender' ? 'https://chilangaton2026.cattion.com' : page.url.origin
 	);
 	const canonical = $derived(`${origin}${page.url.pathname}`);
 	const tabTitle = $derived(title.replace(' | RUTA LIBRE', ' · RUTA LIBRE'));
