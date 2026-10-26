@@ -49,6 +49,7 @@
 			partir, si quieres decirlo. La información de las clínicas viene de una fuente pública y aún
 			la estamos verificando, así que conviene confirmar horario y requisitos antes de ir.
 		</p>
+		<p class="award">RUTA LIBRE fue finalista del Laboratorio de Futuros del Chilangatón 2026.</p>
 	</div>
 
 	<nav class="index-nav" aria-label="Secciones de RUTA LIBRE">
@@ -100,6 +101,15 @@
 	.lead + p {
 		max-width: 52ch;
 		margin-top: 14px;
+	}
+
+	.award {
+		max-width: 52ch;
+		margin-top: 20px;
+		padding-top: 14px;
+		border-top: 1px solid var(--rule);
+		font-size: 15px;
+		color: var(--ink-soft);
 	}
 
 	.index-nav {
